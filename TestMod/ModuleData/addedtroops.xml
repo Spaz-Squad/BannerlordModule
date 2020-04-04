@@ -1,0 +1,836 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+  <NPCCharacter id="mod_added_recruit"
+                default_group="Infantry"
+				is_female="false"
+                level="6"
+                civilianTemplate="NPCCharacter.vlandia_troop_civilian_template_t1"
+                name="{=0000001}Added Recruit"
+                occupation="Soldier"
+                is_basic_troop="true"
+                culture="Culture.added_culture">
+	<face>
+      <face_key_template value="NPCCharacter.villager_vlandia" />
+    </face>		
+	<skills>
+      <skill id="Athletics"
+             value="20" />
+      <skill id="Riding"
+             value="5" />
+      <skill id="OneHanded"
+             value="20" />
+      <skill id="TwoHanded"
+             value="10" />
+      <skill id="Polearm"
+             value="20" />
+      <skill id="Bow"
+             value="0" />
+      <skill id="Crossbow"
+             value="10" />
+      <skill id="Throwing"
+             value="5" />
+    </skills>
+	<equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.empire_mace_1_t2" />
+      <equipment slot="Head"
+                 id="Item.pilgrim_hood" />
+      <equipment slot="Body"
+                 id="Item.bandit_leather_water_flask" />
+      <equipment slot="Leg"
+                 id="Item.wrapped_leather_boots" />
+      <equipment slot="Gloves"
+                 id="Item.buttoned_leather_bracers" />
+    </equipmentSet>
+	<equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.empire_mace_1_t2" />
+      <equipment slot="Head"
+                 id="Item.pilgrim_hood" />
+      <equipment slot="Body"
+                 id="Item.bandit_leather_water_flask" />
+      <equipment slot="Leg"
+                 id="Item.wrapped_leather_boots" />
+      <equipment slot="Gloves"
+                 id="Item.buttoned_leather_bracers" />
+	  <equipment slot="Cape"
+                 id="Item.scarf" />			 
+    </equipmentSet>
+	<upgrade_targets>
+      <upgrade_target id="NPCCharacter.mod_added_warrior" />
+	  <upgrade_target id="NPCCharacter.mod_added_archer" />
+    </upgrade_targets>
+  </NPCCharacter>
+  <NPCCharacter id="mod_added_warrior"
+                default_group="Infantry"
+				is_female="false"
+                level="11"
+                civilianTemplate="NPCCharacter.vlandia_troop_civilian_template_t1"
+                name="{=0000002}Added Warrior"
+                occupation="Soldier"
+                is_basic_troop="true"
+                culture="Culture.added_culture">
+	<face>
+      <face_key_template value="NPCCharacter.villager_vlandia" />
+    </face>		
+	<skills>
+      <skill id="Athletics"
+             value="40" />
+      <skill id="Riding"
+             value="5" />
+      <skill id="OneHanded"
+             value="40" />
+      <skill id="TwoHanded"
+             value="10" />
+      <skill id="Polearm"
+             value="20" />
+      <skill id="Bow"
+             value="0" />
+      <skill id="Crossbow"
+             value="10" />
+      <skill id="Throwing"
+             value="5" />
+    </skills>
+	<equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.empire_mace_1_t2" />
+	  <equipment slot="Item1"
+                 id="Item.eastern_wicker_shield" />			 
+      <equipment slot="Head"
+                 id="Item.arming_coif" />
+      <equipment slot="Body"
+                 id="Item.bandit_leather_water_flask" />
+      <equipment slot="Leg"
+                 id="Item.wrapped_leather_boots" />
+      <equipment slot="Gloves"
+                 id="Item.buttoned_leather_bracers" />
+    </equipmentSet>
+	<equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.empire_mace_1_t2" />
+	  <equipment slot="Item1"
+                 id="Item.eastern_wicker_shield" />				 
+      <equipment slot="Head"
+                 id="Item.arming_coif" />
+      <equipment slot="Body"
+                 id="Item.bandit_leather_water_flask" />
+      <equipment slot="Leg"
+                 id="Item.wrapped_leather_boots" />
+      <equipment slot="Gloves"
+                 id="Item.buttoned_leather_bracers" />
+	  <equipment slot="Cape"
+                 id="Item.scarf" />			 
+    </equipmentSet>
+	<upgrade_targets>
+      <upgrade_target id="NPCCharacter.mod_added_veteran" />
+	  <upgrade_target id="NPCCharacter.mod_added_scout" />
+    </upgrade_targets>
+  </NPCCharacter>
+  <NPCCharacter id="mod_added_veteran"
+                default_group="Infantry"
+				is_female="false"
+                level="16"
+                civilianTemplate="NPCCharacter.vlandia_troop_civilian_template_t1"
+                name="{=0000003}Added Veteran Infantry"
+                occupation="Soldier"
+                is_basic_troop="true"
+                culture="Culture.added_culture">
+	<face>
+      <face_key_template value="NPCCharacter.villager_vlandia" />
+    </face>		
+	<skills>
+      <skill id="Athletics"
+             value="80" />
+      <skill id="Riding"
+             value="5" />
+      <skill id="OneHanded"
+             value="80" />
+      <skill id="TwoHanded"
+             value="10" />
+      <skill id="Polearm"
+             value="20" />
+      <skill id="Bow"
+             value="0" />
+      <skill id="Crossbow"
+             value="10" />
+      <skill id="Throwing"
+             value="5" />
+    </skills>
+	<equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.empire_mace_3_t4" />
+	  <equipment slot="Item1"
+                 id="Item.stronger_eastern_wicker_shield" />			 
+      <equipment slot="Head"
+                 id="Item.arming_coif" />
+      <equipment slot="Body"
+                 id="Item.sleeveless_padded_short_coat" />
+      <equipment slot="Leg"
+                 id="Item.leather_cavalier_boots" />
+      <equipment slot="Gloves"
+                 id="Item.guarded_padded_vambrace" />
+	  <equipment slot="Cape"
+                 id="Item.empire_warrior_padded_armor_shoulder" />			 
+    </equipmentSet>
+	<equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.empire_mace_3_t4" />
+	  <equipment slot="Item1"
+                 id="Item.stronger_eastern_wicker_shield" />				 
+      <equipment slot="Head"
+                 id="Item.arming_coif" />
+      <equipment slot="Body"
+                 id="Item.Item.empire_warrior_padded_armor_c" />
+      <equipment slot="Leg"
+                 id="Item.leather_cavalier_boots" />
+      <equipment slot="Gloves"
+                 id="Item.guarded_padded_vambrace" />
+	  <equipment slot="Cape"
+                 id="Item.scarf" />			 
+    </equipmentSet>
+	<upgrade_targets>
+      <upgrade_target id="NPCCharacter.mod_added_warrior" />
+    </upgrade_targets>
+  </NPCCharacter>
+   <NPCCharacter id="mod_added_warrior"
+                default_group="Infantry"
+				is_female="false"
+                level="21"
+                civilianTemplate="NPCCharacter.vlandia_troop_civilian_template_t1"
+                name="{=0000004}Added Warrior"
+                occupation="Soldier"
+                is_basic_troop="true"
+                culture="Culture.added_culture">
+	<face>
+      <face_key_template value="NPCCharacter.villager_vlandia" />
+    </face>		
+	<skills>
+      <skill id="Athletics"
+             value="110" />
+      <skill id="Riding"
+             value="5" />
+      <skill id="OneHanded"
+             value="110" />
+      <skill id="TwoHanded"
+             value="10" />
+      <skill id="Polearm"
+             value="20" />
+      <skill id="Bow"
+             value="0" />
+      <skill id="Crossbow"
+             value="10" />
+      <skill id="Throwing"
+             value="5" />
+    </skills>
+	<equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.empire_mace_3_t4" />
+	  <equipment slot="Item1"
+                 id="Item.stronger_eastern_wicker_shield" />			 
+      <equipment slot="Body"
+                 id="Item.imperial_lamellar" />
+      <equipment slot="Gloves"
+                 id="Item.lamellar_plate_gauntlets" />
+      <equipment slot="Leg"
+                 id="Item.mail_chausses" />
+      <equipment slot="Head"
+                 id="Item.ironlame_nasalhelm_over_imperial_coif" />
+      <equipment slot="Cape"
+                 id="Item.imperial_studded_strip_shoulders" />		 
+    </equipmentSet>
+	<equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.empire_mace_3_t4" />
+	  <equipment slot="Item1"
+                 id="Item.stronger_eastern_wicker_shield" />				 
+      <equipment slot="Body"
+                 id="Item.imperial_scale_armor" />
+      <equipment slot="Gloves"
+                 id="Item.lamellar_plate_gauntlets" />
+      <equipment slot="Leg"
+                 id="Item.lamellar_plate_boots" />
+      <equipment slot="Head"
+                 id="Item.ironlame_nasalhelm_over_imperial_mail" />
+      <equipment slot="Cape"
+                 id="Item.imperial_studded_strip_shoulders" /> 
+    </equipmentSet>
+	<upgrade_targets>
+      <upgrade_target id="NPCCharacter.mod_added_master" />
+    </upgrade_targets>
+  </NPCCharacter>
+  <NPCCharacter id="mod_added_master"
+                default_group="Infantry"
+				is_female="false"
+                level="26"
+                civilianTemplate="NPCCharacter.vlandia_troop_civilian_template_t1"
+                name="{=0000005}Added Sword Master"
+                occupation="Soldier"
+                is_basic_troop="true"
+                culture="Culture.added_culture">
+	<face>
+      <face_key_template value="NPCCharacter.villager_vlandia" />
+    </face>		
+	<skills>
+      <skill id="Athletics"
+             value="160" />
+      <skill id="Riding"
+             value="5" />
+      <skill id="OneHanded"
+             value="160" />
+      <skill id="TwoHanded"
+             value="10" />
+      <skill id="Polearm"
+             value="20" />
+      <skill id="Bow"
+             value="0" />
+      <skill id="Crossbow"
+             value="10" />
+      <skill id="Throwing"
+             value="5" />
+    </skills>
+	<equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.empire_mace_5_t5" />
+	  <equipment slot="Item1"
+                 id="Item.stronger_eastern_wicker_shield" />			 
+      <equipment slot="Head"
+                 id="Item.arming_coif" />
+      <equipment slot="Cape"
+                 id="Item.imperial_lamellar_shoulders" />
+      <equipment slot="Body"
+                 id="Item.imperial_scale_armor" />
+      <equipment slot="Gloves"
+                 id="Item.decorated_imperial_gauntlets" />
+      <equipment slot="Leg"
+                 id="Item.decorated_imperial_boots" />		 
+    </equipmentSet>
+	<equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.empire_mace_5_t5" />
+	  <equipment slot="Item1"
+                 id="Item.stronger_eastern_wicker_shield" />				 
+      <equipment slot="Head"
+                 id="Item.arming_coif" />
+      <equipment slot="Cape"
+                 id="Item.pauldron_cape_a" />
+      <equipment slot="Body"
+                 id="Item.imperial_scale_armor" />
+      <equipment slot="Gloves"
+                 id="Item.decorated_imperial_gauntlets" />
+      <equipment slot="Leg"
+                 id="Item.decorated_imperial_boots" />		 
+    </equipmentSet>
+  </NPCCharacter>
+  <NPCCharacter id="mod_added_archer"
+                default_group="Ranged"
+				is_female="false"
+                level="11"
+                civilianTemplate="NPCCharacter.vlandia_troop_civilian_template_t1"
+                name="{=0000006}Added Archer"
+                occupation="Soldier"
+                is_basic_troop="true"
+                culture="Culture.added_culture">
+	<face>
+      <face_key_template value="NPCCharacter.villager_vlandia" />
+    </face>		
+	<skills>
+      <skill id="Athletics"
+             value="40" />
+      <skill id="Riding"
+             value="5" />
+      <skill id="OneHanded"
+             value="30" />
+      <skill id="TwoHanded"
+             value="10" />
+      <skill id="Polearm"
+             value="20" />
+      <skill id="Bow"
+             value="0" />
+      <skill id="Crossbow"
+             value="40" />
+      <skill id="Throwing"
+             value="5" />
+    </skills>
+	<equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.empire_mace_1_t2" />
+	  <equipment slot="Item1"
+                 id="Item.crossbow_a" />	
+      <equipment slot="Item2"
+                 id="Item.bolt_a" />
+      <equipment slot="Item3"
+                 id="Item.bolt_a" />				 
+      <equipment slot="Head"
+                 id="Item.arming_coif" />
+      <equipment slot="Body"
+                 id="Item.bandit_leather_water_flask" />
+      <equipment slot="Leg"
+                 id="Item.wrapped_leather_boots" />
+      <equipment slot="Gloves"
+                 id="Item.buttoned_leather_bracers" />
+    </equipmentSet>
+	<equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.empire_mace_1_t2" />
+	  <equipment slot="Item1"
+                 id="Item.crossbow_a" />	
+      <equipment slot="Item2"
+                 id="Item.bolt_a" />	
+      <equipment slot="Item3"
+                 id="Item.bolt_a" />				 
+      <equipment slot="Head"
+                 id="Item.arming_coif" />
+      <equipment slot="Body"
+                 id="Item.bandit_leather_water_flask" />
+      <equipment slot="Leg"
+                 id="Item.wrapped_leather_boots" />
+      <equipment slot="Gloves"
+                 id="Item.buttoned_leather_bracers" />
+	  <equipment slot="Cape"
+                 id="Item.scarf" />			 
+    </equipmentSet>
+	<upgrade_targets>
+      <upgrade_target id="NPCCharacter.mod_added_mark" />
+    </upgrade_targets>
+  </NPCCharacter>
+  <NPCCharacter id="mod_added_mark"
+                default_group="Ranged"
+				is_female="false"
+                level="16"
+                civilianTemplate="NPCCharacter.vlandia_troop_civilian_template_t1"
+                name="{=0000008}Added Marksman"
+                occupation="Soldier"
+                is_basic_troop="true"
+                culture="Culture.added_culture">
+	<face>
+      <face_key_template value="NPCCharacter.villager_vlandia" />
+    </face>		
+	<skills>
+      <skill id="Athletics"
+             value="80" />
+      <skill id="Riding"
+             value="5" />
+      <skill id="OneHanded"
+             value="60" />
+      <skill id="TwoHanded"
+             value="10" />
+      <skill id="Polearm"
+             value="20" />
+      <skill id="Bow"
+             value="0" />
+      <skill id="Crossbow"
+             value="80" />
+      <skill id="Throwing"
+             value="5" />
+    </skills>
+	<equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.empire_mace_1_t2" />
+	  <equipment slot="Item1"
+                 id="Item.crossbow_a" />	
+      <equipment slot="Item2"
+                 id="Item.bolt_a" />
+      <equipment slot="Item3"
+                 id="Item.bolt_a" />
+      <equipment slot="Head"
+                 id="Item.arming_coif" />				 
+      <equipment slot="Body"
+                 id="Item.imperial_padded_cloth" />
+      <equipment slot="Gloves"
+                 id="Item.guarded_padded_vambrace" />
+      <equipment slot="Leg"
+                 id="Item.leather_shoes" />
+      <equipment slot="Head"
+                 id="Item.imperial_cloth_coif" />
+    </equipmentSet>
+	<equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.empire_mace_1_t2" />
+	  <equipment slot="Item1"
+                 id="Item.crossbow_a" />	
+      <equipment slot="Item2"
+                 id="Item.bolt_a" />	
+      <equipment slot="Item3"
+                 id="Item.bolt_a" />				 
+      <equipment slot="Head"
+                 id="Item.arming_coif" />
+      <equipment slot="Body"
+                 id="Item.imperial_padded_cloth" />
+      <equipment slot="Gloves"
+                 id="Item.guarded_padded_vambrace" />
+      <equipment slot="Leg"
+                 id="Item.leather_shoes" />
+	  <equipment slot="Cape"
+                 id="Item.scarf" />			 
+    </equipmentSet>
+	<upgrade_targets>
+      <upgrade_target id="NPCCharacter.mod_added_snip" />
+    </upgrade_targets>
+  </NPCCharacter>
+  <NPCCharacter id="mod_added_snip"
+                default_group="Ranged"
+				is_female="false"
+                level="21"
+                civilianTemplate="NPCCharacter.vlandia_troop_civilian_template_t1"
+                name="{=0000009}Added Sniper"
+                occupation="Soldier"
+                is_basic_troop="true"
+                culture="Culture.added_culture">
+	<face>
+      <face_key_template value="NPCCharacter.villager_vlandia" />
+    </face>		
+	<skills>
+      <skill id="Athletics"
+             value="110" />
+      <skill id="Riding"
+             value="5" />
+      <skill id="OneHanded"
+             value="40" />
+      <skill id="TwoHanded"
+             value="110" />
+      <skill id="Polearm"
+             value="20" />
+      <skill id="Bow"
+             value="0" />
+      <skill id="Crossbow"
+             value="110" />
+      <skill id="Throwing"
+             value="5" />
+    </skills>
+	<equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.war_razor_2hsword_t4" />
+	  <equipment slot="Item1"
+                 id="Item.crossbow_b" />	
+      <equipment slot="Item2"
+                 id="Item.bolt_a" />
+      <equipment slot="Item3"
+                 id="Item.bolt_a" />
+      <equipment slot="Body"
+                 id="Item.decorated_nordic_hauberk" />
+      <equipment slot="Head"
+                 id="Item.battanian_noble_helmet_with_feather" />
+      <equipment slot="Cape"
+                 id="Item.armored_bearskin" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+      <equipment slot="Leg"
+                 id="Item.battania_woodland_boots" />			 
+    </equipmentSet>
+	<equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.battania_2hsword_2_t3" />
+	  <equipment slot="Item1"
+                 id="Item.crossbow_b" />	
+      <equipment slot="Item2"
+                 id="Item.bolt_a" />	
+      <equipment slot="Item3"
+                 id="Item.bolt_a" />				 
+      <equipment slot="Body"
+                 id="Item.decorated_nordic_hauberk" />
+      <equipment slot="Head"
+                 id="Item.battanian_noble_helmet_with_feather" />
+      <equipment slot="Cape"
+                 id="Item.armored_bearskin" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+      <equipment slot="Leg"
+                 id="Item.battania_woodland_boots" />			 			 
+    </equipmentSet>
+	<upgrade_targets>
+      <upgrade_target id="NPCCharacter.mod_added_hero" />
+    </upgrade_targets>
+  </NPCCharacter>
+  <NPCCharacter id="mod_added_hero"
+                default_group="Ranged"
+				is_female="false"
+                level="26"
+                civilianTemplate="NPCCharacter.vlandia_troop_civilian_template_t1"
+                name="{=0000010}Added Hero"
+                occupation="Soldier"
+                is_basic_troop="true"
+                culture="Culture.added_culture">
+	<face>
+      <face_key_template value="NPCCharacter.villager_vlandia" />
+    </face>		
+	<skills>
+      <skill id="Athletics"
+             value="160" />
+      <skill id="Riding"
+             value="5" />
+      <skill id="OneHanded"
+             value="40" />
+      <skill id="TwoHanded"
+             value="160" />
+      <skill id="Polearm"
+             value="20" />
+      <skill id="Bow"
+             value="0" />
+      <skill id="Crossbow"
+             value="160" />
+      <skill id="Throwing"
+             value="5" />
+    </skills>
+	<equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.battania_2hsword_5_t5" />
+	  <equipment slot="Item1"
+                 id="Item.crossbow_c" />	
+      <equipment slot="Item2"
+                 id="Item.bolt_a" />
+      <equipment slot="Item3"
+                 id="Item.bolt_a" />
+      <equipment slot="Body"
+                 id="Item.battania_noble_armor" />
+      <equipment slot="Head"
+                 id="Item.battanian_crowned_helmet" />
+      <equipment slot="Cape"
+                 id="Item.battania_cloak_furr" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+      <equipment slot="Leg"
+                 id="Item.battania_fur_boots" />
+    </equipmentSet>
+	<equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.battania_2hsword_5_t5" />
+	  <equipment slot="Item1"
+                 id="Item.crossbow_c" />	
+      <equipment slot="Item2"
+                 id="Item.bolt_a" />	
+      <equipment slot="Item3"
+                 id="Item.bolt_a" />				 
+      <equipment slot="Body"
+                 id="Item.battania_noble_armor" />
+      <equipment slot="Head"
+                 id="Item.battanian_crowned_helmet" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+      <equipment slot="Leg"
+                 id="Item.battania_fur_boots" />
+      <equipment slot="Cape"
+                 id="Item.battania_shoulder_furr" />			 
+    </equipmentSet>
+  </NPCCharacter>
+  <NPCCharacter id="mod_added_scout"
+                default_group="Cavalry"
+				is_female="false"
+                level="16"
+                civilianTemplate="NPCCharacter.vlandia_troop_civilian_template_t1"
+                name="{=0000011}Added Scout"
+				upgrade_requires="ItemCategory.horse"
+                occupation="Soldier"
+                is_basic_troop="true"
+                culture="Culture.added_culture">
+	<face>
+      <face_key_template value="NPCCharacter.villager_vlandia" />
+    </face>		
+	<skills>
+      <skill id="Athletics"
+             value="40" />
+      <skill id="Riding"
+             value="80" />
+      <skill id="OneHanded"
+             value="10" />
+      <skill id="TwoHanded"
+             value="10" />
+      <skill id="Polearm"
+             value="80" />
+      <skill id="Bow"
+             value="0" />
+      <skill id="Crossbow"
+             value="10" />
+      <skill id="Throwing"
+             value="5" />
+    </skills>
+	<equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.Item.western_spear_2_t2" />
+	  <equipment slot="Item1"
+                 id="Item.eastern_wicker_shield" />			 
+      <equipment slot="Body"
+                 id="Item.leather_scale_armor" />
+      <equipment slot="Leg"
+                 id="Item.strapped_mail_chausses" />
+      <equipment slot="Head"
+                 id="Item.nasal_cervelliere_over_laced_coif" />
+      <equipment slot="Gloves"
+                 id="Item.leather_gloves" />
+	  <equipment slot="Cape"
+                 id="Item.empire_warrior_padded_armor_shoulder" />	
+ 	  <equipment slot="Horse"
+               id="Item.vlandia_horse" />
+      <equipment slot="HorseHarness"
+               id="Item.light_harness" />			 
+    </equipmentSet>
+	<equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.Item.western_spear_2_t2" />
+	  <equipment slot="Item1"
+                 id="Item.eastern_wicker_shield" />				 
+      <equipment slot="Body"
+                 id="Item.leather_scale_armor" />
+      <equipment slot="Leg"
+                 id="Item.strapped_mail_chausses" />
+      <equipment slot="Head"
+                 id="Item.nasal_cervelliere_over_laced_coif" />
+      <equipment slot="Gloves"
+                 id="Item.leather_gloves" />
+	  <equipment slot="Cape"
+                 id="Item.scarf" />			
+	  <equipment slot="Horse"
+               id="Item.vlandia_horse" />
+      <equipment slot="HorseHarness"
+               id="Item.light_harness" />			 
+    </equipmentSet>
+	<upgrade_targets>
+      <upgrade_target id="NPCCharacter.mod_added_cav" />
+    </upgrade_targets>
+  </NPCCharacter>
+  <NPCCharacter id="mod_added_cav"
+                default_group="Cavalry"
+				is_female="false"
+                level="21"
+                civilianTemplate="NPCCharacter.vlandia_troop_civilian_template_t1"
+                name="{=0000012}Added Cavalry"
+				occupation="Soldier"
+                is_basic_troop="true"
+                culture="Culture.added_culture">
+	<face>
+      <face_key_template value="NPCCharacter.villager_vlandia" />
+    </face>		
+	<skills>
+      <skill id="Athletics"
+             value="40" />
+      <skill id="Riding"
+             value="110" />
+      <skill id="OneHanded"
+             value="10" />
+      <skill id="TwoHanded"
+             value="10" />
+      <skill id="Polearm"
+             value="110" />
+      <skill id="Bow"
+             value="0" />
+      <skill id="Crossbow"
+             value="10" />
+      <skill id="Throwing"
+             value="5" />
+    </skills>
+	<equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.Item.western_spear_4_t4" />
+	  <equipment slot="Item1"
+                 id="Item.eastern_wicker_shield" />			 
+      <equipment slot="Body"
+                 id="Item.leather_scale_armor" />
+      <equipment slot="Leg"
+                 id="Item.strapped_mail_chausses" />
+      <equipment slot="Head"
+                 id="Item.nasal_cervelliere_over_laced_coif" />
+      <equipment slot="Gloves"
+                 id="Item.leather_gloves" />
+	  <equipment slot="Cape"
+                 id="Item.empire_warrior_padded_armor_shoulder" />	
+ 	  <equipment slot="Horse"
+               id="Item.vlandia_horse" />
+      <equipment slot="HorseHarness"
+               id="Item.light_harness" />			 
+    </equipmentSet>
+	<equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.Item.western_spear_4_t4" />
+	  <equipment slot="Item1"
+                 id="Item.eastern_wicker_shield" />				 
+      <equipment slot="Body"
+                 id="Item.leather_scale_armor" />
+      <equipment slot="Leg"
+                 id="Item.strapped_mail_chausses" />
+      <equipment slot="Head"
+                 id="Item.nasal_cervelliere_over_laced_coif" />
+      <equipment slot="Gloves"
+                 id="Item.leather_gloves" />
+	  <equipment slot="Cape"
+                 id="Item.scarf" />			
+	  <equipment slot="Horse"
+               id="Item.vlandia_horse" />
+      <equipment slot="HorseHarness"
+               id="Item.light_harness" />			 
+    </equipmentSet>
+	<upgrade_targets>
+      <upgrade_target id="NPCCharacter.mod_added_wind" />
+    </upgrade_targets>
+  </NPCCharacter>
+  <NPCCharacter id="mod_added_wind"
+                default_group="Cavalry"
+				is_female="false"
+                level="26"
+                civilianTemplate="NPCCharacter.vlandia_troop_civilian_template_t1"
+                name="{=0000013}Added Windrider"
+				upgrade_requires="ItemCategory.war_horse"
+				occupation="Soldier"
+                is_basic_troop="true"
+                culture="Culture.added_culture">
+	<face>
+      <face_key_template value="NPCCharacter.villager_vlandia" />
+    </face>		
+	<skills>
+      <skill id="Athletics"
+             value="40" />
+      <skill id="Riding"
+             value="160" />
+      <skill id="OneHanded"
+             value="10" />
+      <skill id="TwoHanded"
+             value="10" />
+      <skill id="Polearm"
+             value="160" />
+      <skill id="Bow"
+             value="0" />
+      <skill id="Crossbow"
+             value="10" />
+      <skill id="Throwing"
+             value="5" />
+    </skills>
+	<equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.Item.western_spear_4_t4" />
+	  <equipment slot="Item1"
+                 id="Item.stronger_eastern_wicker_shield" />			 
+      <equipment slot="Body"
+                 id="Item.coat_of_plates_over_mail" />
+      <equipment slot="Leg"
+                 id="Item.strapped_mail_chausses" />
+      <equipment slot="Head"
+                 id="Item.visored_helmet_over_mail_coif" />
+      <equipment slot="Gloves"
+                 id="Item.lordly_mail_mitten" />
+      <equipment slot="Cape"
+                 id="Item.armored_bearskin" />	
+ 	  <equipment slot="Horse"
+               id="Item.t2_vlandia_horse" />
+    <equipment slot="HorseHarness"
+               id="Item.chain_barding" />			 
+    </equipmentSet>
+	<equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.Item.western_spear_4_t4" />
+	  <equipment slot="Item1"
+                 id="Item.stronger_eastern_wicker_shield" />				 
+      <equipment slot="Body"
+                 id="Item.coat_of_plates_over_mail" />
+      <equipment slot="Leg"
+                 id="Item.strapped_mail_chausses" />
+      <equipment slot="Head"
+                 id="Item.visored_helmet_over_mail_coif" />
+      <equipment slot="Gloves"
+                 id="Item.lordly_mail_mitten" />
+      <equipment slot="Cape"
+                 id="Item.armored_bearskin" />		
+	  <equipment slot="Horse"
+               id="Item.t2_vlandia_horse" />
+    <equipment slot="HorseHarness"
+               id="Item.chain_barding" />			 
+    </equipmentSet>
+  </NPCCharacter>
+</NPCCharacters>  

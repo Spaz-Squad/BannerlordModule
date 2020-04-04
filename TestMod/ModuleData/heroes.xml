@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Heroes>
+  <!--lords.xml-->
+  <Hero id="main_hero" is_noble="true" father="Hero.main_hero_father" mother="Hero.main_hero_mother" faction="Faction.player_faction" banner_key="11.8.1.4345.4345.770.774.1.0.0.414.7.5.512.512.784.769.1.0.0" />
+  <Hero id="main_hero_father" alive="false" is_noble="true" faction="Faction.player_faction" spouse="Hero.main_hero_mother" />
+  <Hero id="main_hero_mother" alive="false" is_noble="true" faction="Faction.player_faction" spouse="Hero.main_hero_father" />
+  <Hero id="dead_lord_2_1" alive="false" faction="Faction.clan_sturgia_2" />
+  <Hero id="dead_lord_2_2" alive="false" father="Hero.dead_lord_2_1" faction="Faction.clan_sturgia_2" />
+  <Hero id="dead_lord_3_1" alive="false" faction="Faction.clan_aserai_2" />
+  <Hero id="dead_lord_6_1" alive="false" faction="Faction.clan_khuzait_1" />
+  <Hero id="dead_lord_6_2" alive="false" faction="Faction.clan_khuzait_2" />
+  <Hero id="dead_lord_6_3" alive="false" faction="Faction.clan_khuzait_3" />
+  <Hero id="dead_lord_6_4" father="Hero.dead_lord_6_3" alive="false" faction="Faction.clan_khuzait_3" />
+  <Hero id="neutral_lord_1" alive="false" faction="Faction.neutral" />
+  <Hero id="lord_1_1" is_noble="true" spouse="Hero.lord_1_2" faction="Faction.clan_empire_north_1" text="{=WBl5hS0e}The northern third of the Empire is ruled by Lucon, who represents a long-standing oligarchic trend in imperial politics. It holds that strict adherance to imperial law is the best guarantee that the empire will not become a tyranny. Oligarchs like Lucon also tend to believe that only landowners can have the extensive education, experience in government, and stake in property to really understand and appreciate the law, and thus the Senate should be supreme." />
+  <Hero id="lord_1_2" is_noble="true" faction="Faction.clan_empire_north_1" spouse="Hero.lord_1_1" />
+  <Hero id="lord_1_3" is_noble="true" spouse="Hero.lord_1_4" faction="Faction.clan_empire_north_2" />
+  <Hero id="lord_1_4" is_noble="true" spouse="Hero.lord_1_3" faction="Faction.clan_empire_north_2" />
+  <Hero id="lord_1_5" is_noble="true" faction="Faction.clan_empire_north_3" text="{=7HzwCQld}Penton Neretzes was once considered one of the rising stars of the Empire, winning a number of battles against the Aserai and the Vlandians. He is best known, however, for having taken two of the Empire's last professional legions into the Battanians woods, and losing them in an ambush. He has tried to blame others for the defeat, including the then-emperor Arenicos and his lieutenant, Garios, but the stigma of the defeat has stuck with him. In the civil war he supported Lucon as emperor, though more out of his hatred for Garios and Rhagaea then from any belief in Lucon's legalistic principles." />
+  <Hero id="lord_1_7" is_noble="true" spouse="Hero.lord_1_8" faction="Faction.clan_empire_west_1" text="{=niI9dpuu}The western third of the Empire is ruled by Garios, a charismatic general who represents a longstanding populist trend in imperial politics. He is deeply loved by his soldiers, both for his solid record in winning battles and for his insistence that his veterans be compensated in land afterwards. He often demands that the 'people' should settle key issues, but in practice this usually means an assembly of his soldiers, where his veterans can be counted on to shut down opposition." />
+  <Hero id="lord_1_75" is_noble="true" father="Hero.lord_1_7" faction="Faction.clan_empire_west_1" />
+  <Hero id="lord_1_8" is_noble="true" faction="Faction.clan_empire_west_1" spouse="Hero.lord_1_7" />
+  <Hero id="lord_1_9" is_noble="true" spouse="Hero.lord_1_10" faction="Faction.clan_empire_west_2" text="{=xL95EfpQ}Apys Varros was one of the most notoriously debauched, unscrupulous, and wealthy members of the old imperial Senate. But he made an early alliance with Garios, in whom he recognized a rising star. Garios provided the fame, Apys provided the money. And even if the populist general ever puts one of his land redistribution schemes into practice, few doubt that Apys would find a way to emerge even richer than before." />
+  <Hero id="lord_1_10" is_noble="true" faction="Faction.clan_empire_west_2" spouse="Hero.lord_1_9" />
+  <Hero id="lord_1_11" is_noble="true" spouse="Hero.lord_1_12" faction="Faction.clan_empire_west_3" />
+  <Hero id="lord_1_111" is_noble="true" father="Hero.lord_1_11" mother="Hero.lord_1_12" faction="Faction.clan_empire_west_3" />
+  <Hero id="lord_1_12" is_noble="true" spouse="Hero.lord_1_11" faction="Faction.clan_empire_west_3" />
+  <Hero id="lord_1_14" is_noble="true" faction="Faction.clan_empire_south_1" text="{=uX0dbuLa}The southern third of the Empire is ruled by Rhagaea, widow of the murdered emperor. For her, politics is personal: all men want their families to inherit what they have, and if you loved Arenicos then you will support the rights of his heirs. Arenicos was indeed loved, and also there are some Calradians who believe that the endless squabbling and civil wars can only be overcome by a king, or, if necessary, by a queen. " />
+  <Hero id="lord_1_15" is_noble="true" spouse="Hero.lord_1_16" faction="Faction.clan_empire_south_2" text="{=pl86rbh9}Pharon is patriarch of the Leonipardes, an imperial house that owns vast estates on the hot plains of the south. The family has traditionally taken the welfare of its tenants seriously, but expects total loyalty from them. He has little to do with the Senate and the politics of the capital. Dynastic inheritance seems to him the natural order of things, so he has leaned towards Rhagaea in the civil wars." />
+  <Hero id="lord_1_155" is_noble="true" father="Hero.lord_1_15" mother="Hero.lord_1_16" faction="Faction.clan_empire_south_2" />
+  <Hero id="lord_1_16" is_noble="true" spouse="Hero.lord_1_15" faction="Faction.clan_empire_south_2" />
+  <Hero id="lord_1_17" is_noble="true" spouse="Hero.lord_1_18" faction="Faction.clan_empire_south_3" />
+  <Hero id="lord_1_18" is_noble="true" spouse="Hero.lord_1_17" faction="Faction.clan_empire_south_3" />
+  <Hero id="lord_1_177" is_noble="true" father="Hero.lord_1_17" mother="Hero.lord_1_18" faction="Faction.clan_empire_south_3" />
+  <Hero id="lord_1_21" is_noble="true" father="Hero.lord_1_1" mother="Hero.lord_1_2" faction="Faction.clan_empire_north_1" />
+  <Hero id="lord_1_22" is_noble="true" faction="Faction.clan_empire_north_2" />
+  <Hero id="lord_1_23" is_noble="true" faction="Faction.clan_empire_north_3" />
+  <Hero id="lord_1_24" is_noble="true" faction="Faction.clan_empire_west_1" />
+  <Hero id="lord_1_25" is_noble="true" father="Hero.lord_1_9" mother="Hero.lord_1_10" faction="Faction.clan_empire_west_2" />
+  <Hero id="lord_1_26" is_noble="true" father="Hero.lord_1_11" mother="Hero.lord_1_12" faction="Faction.clan_empire_west_3" />
+  <Hero id="lord_1_27" is_noble="true" faction="Faction.clan_empire_south_1" />
+  <Hero id="lord_1_277" is_noble="true" father="Hero.lord_1_27" faction="Faction.clan_empire_south_1" />
+  <Hero id="lord_1_28" is_noble="true" father="Hero.lord_1_15" mother="Hero.lord_1_16" faction="Faction.clan_empire_south_2" />
+  <Hero id="lord_1_29" is_noble="true" father="Hero.lord_1_17" mother="Hero.lord_1_18" faction="Faction.clan_empire_south_3" />
+  <Hero id="lord_1_31" is_noble="true" father="Hero.lord_1_1" mother="Hero.lord_1_2" faction="Faction.clan_empire_north_1" />
+  <Hero id="lord_1_32" is_noble="true" father="Hero.lord_1_3" mother="Hero.lord_1_4" faction="Faction.clan_empire_north_2" />
+  <Hero id="lord_1_33" is_noble="true" father="Hero.lord_1_5" faction="Faction.clan_empire_north_3" />
+  <Hero id="lord_1_6" is_noble="true" father="Hero.lord_1_5" faction="Faction.clan_empire_north_3" />
+  <Hero id="lord_1_34" is_noble="true" father="Hero.lord_1_7" mother="Hero.lord_1_8" faction="Faction.clan_empire_west_1" />
+  <Hero id="lord_1_35" is_noble="true" father="Hero.lord_1_9" mother="Hero.lord_1_10" faction="Faction.clan_empire_west_2" />
+  <Hero id="lord_1_36" is_noble="true" father="Hero.lord_1_11" mother="Hero.lord_1_12" faction="Faction.clan_empire_west_3" />
+  <Hero id="lord_1_37" is_noble="true" faction="Faction.clan_empire_south_1" text="{=ZwavTRcF}Ira is the daughter of Rhagaea, one of the three claimants to the imperial throne, and the slain emperor Arenicos. At one point, her father appeared to be grooming her as his heir. But though she took well to military campaigns, she also displayed a wild side unbecoming of imperial dignity, carousing in taverns with other young aristocrats and even appearing in the arenas as a gladiator. She is Rhagaea's heir-apparent, but her mother makes no secret of wishing to find her a responsible consort to ensure the continuity of the dynasty." />
+  <Hero id="lord_1_38" is_noble="true" father="Hero.lord_1_15" mother="Hero.lord_1_16" faction="Faction.clan_empire_south_2" />
+  <Hero id="lord_1_39" is_noble="true" father="Hero.lord_1_17" mother="Hero.lord_1_18" faction="Faction.clan_empire_south_3" />
+  <Hero id="lord_1_40" is_noble="true" faction="Faction.clan_empire_west_4" />
+  <Hero id="lord_1_41" is_noble="true" banner_key="11.6.6.4345.4345.768.768.1.0.0.109.7.5.425.425.770.793.1.0.0" faction="Faction.clan_empire_north_1" />
+  <Hero id="lord_1_411" is_noble="true" father="Hero.lord_1_41" faction="Faction.clan_empire_north_1" />
+  <Hero id="lord_1_42" is_noble="true" faction="Faction.clan_empire_north_2" />
+  <Hero id="lord_1_422" is_noble="true" father="Hero.lord_1_42" faction="Faction.clan_empire_north_2" />
+  <Hero id="lord_1_43" is_noble="true" faction="Faction.clan_empire_north_3" />
+  <Hero id="lord_1_44" is_noble="true" faction="Faction.clan_empire_west_1" />
+  <Hero id="lord_1_47" is_noble="true" faction="Faction.clan_empire_south_1" />
+  <Hero id="lord_1_49" is_noble="true" faction="Faction.clan_empire_south_4" />
+  <Hero id="lord_1_46" is_noble="true" faction="Faction.clan_empire_west_4" />
+  <Hero id="lord_1_20" is_noble="true" faction="Faction.clan_empire_north_4" />
+  <Hero id="lord_1_50" is_noble="true" faction="Faction.clan_empire_north_5" />
+  <Hero id="lord_1_51" is_noble="true" faction="Faction.clan_empire_north_6" />
+  <Hero id="lord_1_58" is_noble="true" faction="Faction.clan_empire_north_7" />
+  <Hero id="lord_1_64" is_noble="true" faction="Faction.clan_empire_north_4" />
+  <Hero id="lord_1_66" is_noble="true" faction="Faction.clan_empire_north_5" />
+  <Hero id="lord_1_67" is_noble="true" faction="Faction.clan_empire_north_6" />
+  <Hero id="lord_1_70" is_noble="true" faction="Faction.clan_empire_north_7" />
+  <Hero id="lord_1_45" is_noble="true" faction="Faction.clan_empire_west_5" />
+  <Hero id="lord_1_52" is_noble="true" faction="Faction.clan_empire_west_6" />
+  <Hero id="lord_1_53" is_noble="true" faction="Faction.clan_empire_west_7" banner_key="11.7.1.4345.4345.768.768.1.0.0.107.9.5.405.405.776.771.1.0.0" />
+  <Hero id="lord_1_71" is_noble="true" faction="Faction.clan_empire_west_8" />
+  <Hero id="lord_1_73" is_noble="true" faction="Faction.clan_empire_west_7" />
+  <Hero id="lord_1_57" is_noble="true" faction="Faction.clan_empire_west_5" />
+  <Hero id="lord_1_62" is_noble="true" faction="Faction.clan_empire_west_6" />
+  <Hero id="lord_1_30" is_noble="true" faction="Faction.clan_empire_south_4" />
+  <Hero id="lord_1_48" is_noble="true" faction="Faction.clan_empire_south_5" />
+  <Hero id="lord_1_54" is_noble="true" faction="Faction.clan_empire_south_6" />
+  <Hero id="lord_1_55" is_noble="true" faction="Faction.clan_empire_south_7" />
+  <Hero id="lord_1_56" is_noble="true" faction="Faction.clan_empire_south_4" />
+  <Hero id="lord_1_63" is_noble="true" faction="Faction.clan_empire_south_5" />
+  <Hero id="lord_1_68" is_noble="true" faction="Faction.clan_empire_south_6" />
+  <Hero id="lord_1_69" is_noble="true" faction="Faction.clan_empire_south_7" />
+  <Hero id="lord_1_72" is_noble="true" faction="Faction.clan_empire_south_8" />
+  <Hero id="lord_1_74" is_noble="true" faction="Faction.clan_empire_south_5" />
+  <Hero id="lord_2_1" is_noble="true" spouse="Hero.lord_2_2" faction="Faction.clan_sturgia_1" text="{=LW92PgZz}The current Grand Prince of Sturgia is Raganvad. Harsh and uncompromising, he believes that it is the right of the prince to command the boyars in all things, not just in making war. For the time being they obey him, not least for his ability to call on the kinsmen of his mother, a Nordic princess with ties to the fearsome Skolderbroda mercenary company." />
+  <Hero id="lord_2_2" is_noble="true" spouse="Hero.lord_2_1" faction="Faction.clan_sturgia_1" />
+  <Hero id="lord_2_3" is_noble="true" father="Hero.dead_lord_2_1" faction="Faction.clan_sturgia_2" text="{=5939sUCg}Olek is patriarch of the Kuloving, one of the oldest of the Sturgian clans, which never really accepted the idea of the monarchy. He believes the boyars should be lords in their own lands. He is famed for once telling the prince, 'Every wound I suffer in battle under your banner is like my wife's caress, but every denar I pay to your treasury in tax is like an arrow in my gut.' He is older now, and keeps his counsel, but few believe that his resentment of princely authority has in any way diminished." />
+  <Hero id="lord_2_4" is_noble="true" father="Hero.dead_lord_2_1" faction="Faction.clan_sturgia_2" />
+  <Hero id="lord_2_5" is_noble="true" spouse="Hero.lord_2_6" faction="Faction.clan_sturgia_3" text="{=6lZGNChB}Godun is lord of the Vagiroving, one of the younger houses of the Sturgians. His people have always been as interested in trade as they have been in war, although Godun himself is everything a prince might want: cooperative, prompt to pay his feudal dues, quick to respond to his liege's calls to arms. Yet Raganvad has never fully trusted him, because it is hard to imagine a Vagiroving without his own long-term plan for personal aggrandizement." />
+  <Hero id="lord_2_6" is_noble="true" spouse="Hero.lord_2_5" faction="Faction.clan_sturgia_3" />
+  <Hero id="lord_2_7" is_noble="true" father="Hero.lord_2_1" mother="Hero.lord_2_2" faction="Faction.clan_sturgia_1" />
+  <Hero id="lord_2_7_1" is_noble="true" father="Hero.lord_2_1" mother="Hero.lord_2_2" faction="Faction.clan_sturgia_1" />
+  <Hero id="lord_2_8" is_noble="true" father="Hero.lord_2_3" faction="Faction.clan_sturgia_2" />
+  <Hero id="lord_2_9" is_noble="true" father="Hero.lord_2_5" mother="Hero.lord_2_6" faction="Faction.clan_sturgia_3" />
+  <Hero id="lord_2_10" is_noble="true" father="Hero.lord_2_1" mother="Hero.lord_2_2" faction="Faction.clan_sturgia_1" />
+  <Hero id="lord_2_11" is_noble="true" father="Hero.lord_2_3" faction="Faction.clan_sturgia_2" />
+  <Hero id="lord_2_111" is_noble="true" father="Hero.lord_2_3" faction="Faction.clan_sturgia_2" />
+  <Hero id="lord_2_12" is_noble="true" father="Hero.lord_2_5" mother="Hero.lord_2_6" faction="Faction.clan_sturgia_3" />
+  <Hero id="lord_2_121" is_noble="true" father="Hero.lord_2_5" mother="Hero.lord_2_6" faction="Faction.clan_sturgia_3" />
+  <Hero id="lord_2_13" is_noble="true" faction="Faction.clan_sturgia_1" />
+  <Hero id="lord_2_14" is_noble="true" faction="Faction.clan_sturgia_4" />
+  <Hero id="lord_2_15" is_noble="true" banner_key="3.10.0.4345.4345.768.768.1.0.0.158.10.2.220.220.767.655.1.1.0.158.10.2.220.220.773.890.1.0.179" faction="Faction.clan_sturgia_7" />
+  <Hero id="lord_2_16" is_noble="true" faction="Faction.clan_sturgia_4" />
+  <Hero id="lord_2_17" is_noble="true" faction="Faction.clan_sturgia_5" />
+  <Hero id="lord_2_18" is_noble="true" faction="Faction.clan_sturgia_6" />
+  <Hero id="lord_2_19" is_noble="true" faction="Faction.clan_sturgia_7" />
+  <Hero id="lord_2_20" is_noble="true" faction="Faction.clan_sturgia_8" />
+  <Hero id="lord_2_21" is_noble="true" faction="Faction.clan_sturgia_4" />
+  <Hero id="lord_2_22" is_noble="true" faction="Faction.clan_sturgia_5" />
+  <Hero id="lord_2_23" is_noble="true" faction="Faction.clan_sturgia_6" />
+  <Hero id="lord_2_24" is_noble="true" faction="Faction.clan_sturgia_5" />
+  <Hero id="lord_3_1" is_noble="true" spouse="Hero.lord_3_2" faction="Faction.clan_aserai_1" text="{=L90aSR5J}The current Sultan of Aserai is Unqid. He wears his authority lightly, preferring to charm rather than to coerce, always deferring to the laws of the Banu Asera in his judgments. But there are some who say that Udhain is remiss in his duty to administer justice, allowing the wealthiest clans - such as his own - to use bribes and clever legal arguments to oppress the others." />
+  <Hero id="lord_3_2" is_noble="true" spouse="Hero.lord_3_1" faction="Faction.clan_aserai_1" />
+  <Hero id="lord_3_3" is_noble="true" spouse="Hero.lord_3_4" faction="Faction.clan_aserai_2" />
+  <Hero id="lord_3_3_1" is_noble="true" father="Hero.lord_3_3" mother="Hero.lord_3_4" faction="Faction.clan_aserai_2" />
+  <Hero id="lord_3_4" is_noble="true" spouse="Hero.lord_3_3" faction="Faction.clan_aserai_2" />
+  <Hero id="lord_3_5" is_noble="true" spouse="Hero.lord_3_6" faction="Faction.clan_aserai_3" />
+  <Hero id="lord_3_51" is_noble="true" father="Hero.lord_3_5" mother="Hero.lord_3_6" faction="Faction.clan_aserai_3" />
+  <Hero id="lord_3_6" is_noble="true" spouse="Hero.lord_3_5" faction="Faction.clan_aserai_3" />
+  <Hero id="lord_3_7" is_noble="true" father="Hero.lord_3_1" mother="Hero.lord_3_2" faction="Faction.clan_aserai_1" />
+  <Hero id="lord_3_8" is_noble="true" father="Hero.lord_3_3" mother="Hero.lord_3_4" faction="Faction.clan_aserai_2" />
+  <Hero id="lord_3_9" is_noble="true" father="Hero.lord_3_5" mother="Hero.lord_3_6" faction="Faction.clan_aserai_3" />
+  <Hero id="lord_3_10" is_noble="true" father="Hero.lord_3_1" mother="Hero.lord_3_2" faction="Faction.clan_aserai_1" banner_key="12.9.7.4345.4345.768.768.1.0.0.131.7.0.144.144.604.768.0.0.0.131.9.0.144.144.932.768.0.0.0" />
+  <Hero id="lord_3_11" is_noble="true" father="Hero.lord_3_3" mother="Hero.lord_3_4" faction="Faction.clan_aserai_2" />
+  <Hero id="lord_3_12" is_noble="true" father="Hero.lord_3_5" mother="Hero.lord_3_6" faction="Faction.clan_aserai_3" />
+  <Hero id="lord_3_13" is_noble="true" faction="Faction.clan_aserai_1" />
+  <Hero id="lord_3_14" is_noble="true" faction="Faction.clan_aserai_4" />
+  <Hero id="lord_3_15" is_noble="true" faction="Faction.clan_aserai_4" />
+  <Hero id="lord_3_16" is_noble="true" faction="Faction.clan_aserai_4" />
+  <Hero id="lord_3_17" is_noble="true" faction="Faction.clan_aserai_5" />
+  <Hero id="lord_3_18" is_noble="true" faction="Faction.clan_aserai_6" />
+  <Hero id="lord_3_19" is_noble="true" faction="Faction.clan_aserai_7" />
+  <Hero id="lord_3_20" is_noble="true" faction="Faction.clan_aserai_8" />
+  <Hero id="lord_3_21" is_noble="true" faction="Faction.clan_aserai_5" />
+  <Hero id="lord_3_22" is_noble="true" faction="Faction.clan_aserai_6" />
+  <Hero id="lord_3_23" is_noble="true" faction="Faction.clan_aserai_7" />
+  <Hero id="lord_4_1" is_noble="true" banner_key="11.7.7.4345.4345.768.768.1.0.0.135.5.0.415.415.764.770.0.1.0" spouse="Hero.lord_4_2" faction="Faction.clan_vlandia_1" text="{=EHiQI7ps}The current king of Vlandia is Derthert. In his youth, he dreamt of glorious conquest. In fact he spent most of his reign simply putting down revolts, quashing pretenders, and keeping the fractious barons in line. When possible, he prefers to rule by arbitration, cajoling his vassals to set aside claims to each other's lands and enjoy what they have. But some Vlandians murmur that a warrior people deserve a more virile king." />
+  <Hero id="lord_4_2" is_noble="true" spouse="Hero.lord_4_1" faction="Faction.clan_vlandia_1" />
+  <Hero id="lord_4_3" is_noble="true" spouse="Hero.lord_4_4" faction="Faction.clan_vlandia_2" banner_key="3.6.5.4345.4345.768.768.1.0.0.305.9.0.512.511.775.767.0.0.317" />
+  <Hero id="lord_4_4" is_noble="true" spouse="Hero.lord_4_3" faction="Faction.clan_vlandia_2" banner_key="1.6.2.4345.4345.768.768.1.0.0.447.10.0.358.358.774.767.0.0.0" />
+  <Hero id="lord_4_5" is_noble="true" faction="Faction.clan_vlandia_3" spouse="Hero.lord_4_6" />
+  <Hero id="lord_4_6" is_noble="true" faction="Faction.clan_vlandia_3" spouse="Hero.lord_4_5" />
+  <Hero id="lord_4_7" is_noble="true" father="Hero.lord_4_1" mother="Hero.lord_4_2" faction="Faction.clan_vlandia_1" />
+  <Hero id="lord_4_8" is_noble="true" father="Hero.lord_4_3" mother="Hero.lord_4_4" faction="Faction.clan_vlandia_2" />
+  <Hero id="lord_4_9" is_noble="true" father="Hero.lord_4_5" mother="Hero.lord_4_6" faction="Faction.clan_vlandia_3" />
+  <Hero id="lord_4_10" is_noble="true" father="Hero.lord_4_1" mother="Hero.lord_4_2" faction="Faction.clan_vlandia_1" />
+  <Hero id="lord_4_11" is_noble="true" father="Hero.lord_4_3" mother="Hero.lord_4_4" faction="Faction.clan_vlandia_2" banner_key="3.6.5.4345.4345.768.768.1.0.0.305.9.0.512.511.775.767.0.0.317" />
+  <Hero id="lord_4_12" is_noble="true" father="Hero.lord_4_5" mother="Hero.lord_4_6" faction="Faction.clan_vlandia_3" />
+  <Hero id="lord_4_121" is_noble="true" father="Hero.lord_4_5" mother="Hero.lord_4_6" faction="Faction.clan_vlandia_3" />
+  <Hero id="lord_4_13" is_noble="true" faction="Faction.clan_vlandia_1" />
+  <Hero id="lord_4_14" is_noble="true" father="Hero.lord_4_1" mother="Hero.lord_4_2" faction="Faction.clan_vlandia_1" />
+  <Hero id="lord_4_141" is_noble="true" father="Hero.lord_4_1" mother="Hero.lord_4_2" faction="Faction.clan_vlandia_1" />
+  <Hero id="lord_4_15" is_noble="true" father="Hero.lord_4_1" mother="Hero.lord_4_2" faction="Faction.clan_vlandia_1" />
+  <Hero id="lord_4_16" is_noble="true" spouse="Hero.lord_4_17" faction="Faction.clan_vlandia_4" />
+  <Hero id="lord_4_17" is_noble="true" spouse="Hero.lord_4_16" faction="Faction.clan_vlandia_4" />
+  <Hero id="lord_4_18" is_noble="true" father="Hero.lord_4_16" mother="Hero.lord_4_17" faction="Faction.clan_vlandia_4" />
+  <Hero id="lord_4_181" is_noble="true" father="Hero.lord_4_16" mother="Hero.lord_4_17" faction="Faction.clan_vlandia_4" />
+  <Hero id="lord_4_19" is_noble="true" father="Hero.lord_4_16" mother="Hero.lord_4_17" faction="Faction.clan_vlandia_4" />
+  <Hero id="lord_4_20" is_noble="true" faction="Faction.clan_vlandia_6" />
+  <Hero id="lord_4_21" is_noble="true" faction="Faction.clan_vlandia_5" />
+  <Hero id="lord_4_22" is_noble="true" faction="Faction.clan_vlandia_6" />
+  <Hero id="lord_4_23" is_noble="true" faction="Faction.clan_vlandia_7" banner_key="3.2.5.4345.4345.768.768.1.0.0.325.9.0.480.480.768.876.0.0.0.305.9.0.473.473.770.567.0.0.271" />
+  <Hero id="lord_4_24" is_noble="true" faction="Faction.clan_vlandia_8" />
+  <Hero id="lord_4_25" is_noble="true" faction="Faction.clan_vlandia_5" />
+  <Hero id="lord_4_26" is_noble="true" faction="Faction.clan_vlandia_8" />
+  <Hero id="lord_4_27" is_noble="true" faction="Faction.clan_vlandia_9" />
+  <Hero id="lord_4_28" is_noble="true" faction="Faction.clan_vlandia_10" />
+  <Hero id="lord_5_1" is_noble="true" faction="Faction.clan_battania_1" text="{=8SiW73EF}The current High King of Battania is Caladog, a brilliant war captain adopted by the prior king, Uthelhain, who then died in mysterious circumstances. Despite the doubts around his accession, Caladog has made himself popular among the lesser clans of the land who admire him, a man of no great lineage, for having discomfited the Battanians' traditional clan hierarchy. His clan is the fen Gruffendoc, a formerly obscure family now swollen with his comrades-in-arms with whom he has made marriage alliances." />
+  <Hero id="lord_5_3" is_noble="true" spouse="Hero.lord_5_4" faction="Faction.clan_battania_2" text="{=HjGYftkH}Ergeon is head of the fen Derngil and brother of the vanished king Uthelhain. Although his clan deeply resents Caladog, whom they consider a lowborn upstart who probably had something to do with King Uthelhain's disappearance, Ergeon insists that his relatives remain loyal to the new king. The fen Derngils have always stood for a strong monarchy, and he is loathe to return the Battanians to the anarchy that consumed them for much of their history." />
+  <Hero id="lord_5_4" is_noble="true" spouse="Hero.lord_5_3" faction="Faction.clan_battania_2" />
+  <Hero id="lord_5_5" is_noble="true" faction="Faction.clan_battania_3" spouse="Hero.lord_5_6" />
+  <Hero id="lord_5_6" is_noble="true" faction="Faction.clan_battania_3" spouse="Hero.lord_5_5" />
+  <Hero id="lord_5_7" is_noble="true" father="Hero.lord_5_1" faction="Faction.clan_battania_1" />
+  <Hero id="lord_5_8" is_noble="true" father="Hero.lord_5_3" faction="Faction.clan_battania_2" />
+  <Hero id="lord_5_9" is_noble="true" father="Hero.lord_5_5" mother="Hero.lord_5_6" faction="Faction.clan_battania_3" />
+  <Hero id="lord_5_91" is_noble="true" father="Hero.lord_5_5" mother="Hero.lord_5_6" faction="Faction.clan_battania_3" />
+  <Hero id="lord_5_10" is_noble="true" father="Hero.lord_5_1" faction="Faction.clan_battania_1" />
+  <Hero id="lord_5_11" is_noble="true" father="Hero.lord_5_3" faction="Faction.clan_battania_2" />
+  <Hero id="lord_5_12" is_noble="true" father="Hero.lord_5_5" mother="Hero.lord_5_6" faction="Faction.clan_battania_3" />
+  <Hero id="lord_5_13" is_noble="true" faction="Faction.clan_battania_1" />
+  <Hero id="lord_5_131" is_noble="true" father="Hero.lord_5_13" faction="Faction.clan_battania_1" />
+  <Hero id="lord_5_15" is_noble="true" faction="Faction.clan_battania_7" />
+  <Hero id="lord_5_14" is_noble="true" faction="Faction.clan_battania_4" />
+  <Hero id="lord_5_16" is_noble="true" faction="Faction.clan_battania_5" />
+  <Hero id="lord_5_17" is_noble="true" faction="Faction.clan_battania_6" />
+  <Hero id="lord_5_18" is_noble="true" father="Hero.lord_5_15" faction="Faction.clan_battania_7" />
+  <Hero id="lord_5_19" is_noble="true" faction="Faction.clan_battania_4" />
+  <Hero id="lord_5_20" is_noble="true" faction="Faction.clan_battania_5" />
+  <Hero id="lord_5_21" is_noble="true" banner_key="16.8.0.4345.4345.768.768.1.0.0.121.10.0.226.226.768.645.1.0.0.121.10.0.226.226.768.891.1.0.0" faction="Faction.clan_battania_6" />
+  <Hero id="lord_5_22" is_noble="true" banner_key="16.8.0.4345.4345.768.768.1.0.0.121.10.0.226.226.768.645.1.0.0.121.10.0.226.226.768.891.1.0.0" faction="Faction.clan_battania_4" />
+  <Hero id="lord_6_1" is_noble="true" spouse="Hero.lord_6_2" faction="Faction.clan_khuzait_1" text="{=CzM6y3MT}The current khan of the Khuzaits is Monchug, With the Empire in a state of disarray, he dreams of surpassing his ancestor Urkhun and conquering even deeper into the settled lands. Some of the clans have been decimated by the Urkhunids' wars, however, and feel their sacrifices have not been properly rewarded. They yearn for a khan who is less interested in glory, and more interested in justice." />
+  <Hero id="lord_6_2" is_noble="true" spouse="Hero.lord_6_1" faction="Faction.clan_khuzait_1" />
+  <Hero id="lord_6_3" is_noble="true" spouse="Hero.lord_6_4" faction="Faction.clan_khuzait_2" />
+  <Hero id="lord_6_4" is_noble="true" spouse="Hero.lord_6_3" father="Hero.dead_lord_6_2" faction="Faction.clan_khuzait_2" text="{=ALtZaRzc}Mesui is leader of the Khergit. Once one of the largest clans in the Khuzait confederacy, they suffered many losses during Urkhun Khan's conquests and their lands were subsequently targeted by other tribes. Mesui has ruthlessly defended her clan's rights, and frequently complained about the injustices suffered by smaller clans that she says have shed blood for the khanate without reaping any rewards." />
+  <Hero id="lord_6_5" is_noble="true" father="Hero.dead_lord_6_3" faction="Faction.clan_khuzait_3" />
+  <Hero id="lord_6_51" is_noble="true" father="Hero.lord_6_5" faction="Faction.clan_khuzait_3" />
+  <Hero id="lord_6_6" is_noble="true" faction="Faction.clan_khuzait_4" />
+  <Hero id="lord_6_7" is_noble="true" father="Hero.lord_6_1" mother="Hero.lord_6_2" faction="Faction.clan_khuzait_1" />
+  <Hero id="lord_6_8" is_noble="true" father="Hero.lord_6_3" mother="Hero.lord_6_4" faction="Faction.clan_khuzait_2" />
+  <Hero id="lord_6_81" is_noble="true" father="Hero.lord_6_3" mother="Hero.lord_6_4" faction="Faction.clan_khuzait_2" />
+  <Hero id="lord_6_9" is_noble="true" banner_key="23.4.10.4345.4345.768.768.1.0.0" father="Hero.lord_6_5" faction="Faction.clan_khuzait_3" />
+  <Hero id="lord_6_10" is_noble="true" father="Hero.lord_6_1" mother="Hero.lord_6_2" faction="Faction.clan_khuzait_1" />
+  <Hero id="lord_6_101" is_noble="true" father="Hero.lord_6_1" mother="Hero.lord_6_2" faction="Faction.clan_khuzait_1" />
+  <Hero id="lord_6_11" is_noble="true" father="Hero.lord_6_3" mother="Hero.lord_6_4" faction="Faction.clan_khuzait_2" />
+  <Hero id="lord_6_12" is_noble="true" father="Hero.lord_6_5" faction="Faction.clan_khuzait_3" />
+  <Hero id="lord_6_13" is_noble="true" father="Hero.lord_6_1" faction="Faction.clan_khuzait_1" />
+  <Hero id="lord_6_15" is_noble="true" father="Hero.dead_lord_6_3" faction="Faction.clan_khuzait_3" />
+  <Hero id="lord_6_16" is_noble="true" faction="Faction.clan_khuzait_4" />
+  <Hero id="lord_6_17" is_noble="true" faction="Faction.clan_khuzait_5" />
+  <Hero id="lord_6_18" is_noble="true" faction="Faction.clan_khuzait_6" />
+  <Hero id="lord_6_19" is_noble="true" faction="Faction.clan_khuzait_7" />
+  <Hero id="lord_6_20" is_noble="true" faction="Faction.clan_khuzait_8" />
+  <Hero id="lord_6_21" is_noble="true" faction="Faction.clan_khuzait_5" />
+  <Hero id="lord_6_22" is_noble="true" faction="Faction.clan_khuzait_6" />
+  <Hero id="lord_6_23" is_noble="true" faction="Faction.clan_khuzait_7" />
+  <Hero id="lord_6_24" is_noble="true" faction="Faction.clan_khuzait_4" />
+  <Hero id="lord_looters_1" faction="Faction.looters" />
+  <Hero id="lord_sea_raiders_1" faction="Faction.sea_raiders" />
+  <Hero id="lord_mountain_bandits_1" faction="Faction.mountain_bandits" />
+  <Hero id="lord_forest_bandits_1" faction="Faction.forest_bandits" />
+  <Hero id="lord_desert_bandits_1" faction="Faction.desert_bandits" />
+  <Hero id="lord_steppe_bandits_1" faction="Faction.steppe_bandits" />
+  <!-- My heroes-->
+  <Hero id="lord_7_1" is_noble="true" faction="Faction.clan_added_1" />
+</Heroes>
