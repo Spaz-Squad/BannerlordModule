@@ -71,13 +71,13 @@
 			</IncludedGameTypes>
 		</XmlNode>
 		
-		<XmlNode>
+		<!--<XmlNode>
 			<XmlName id="Settlements" path="settlements"/>
 			<IncludedGameTypes>
 				<GameType value = "Campaign"/>
 				<GameType value = "CampaignStoryMode"/>
 				<GameType value = "CustomGame"/>
 			</IncludedGameTypes>
-		</XmlNode>
+		</XmlNode>-->
   </Xmls>
 </Module>
