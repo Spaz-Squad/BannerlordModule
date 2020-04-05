@@ -13,6 +13,15 @@
   <SubModules>
   </SubModules>
   <Xmls>
+		<XmlNode>
+			<XmlName id="partyTemplates" path="partyTemplates"/>
+			<IncludedGameTypes>
+				<GameType value = "Campaign"/>
+				<GameType value = "CampaignStoryMode"/>
+				<GameType value = "CustomGame"/>
+			</IncludedGameTypes>
+		</XmlNode>
+		
         <XmlNode>                
 			<XmlName id="NPCCharacters" path="addedtroops"/>
 			<IncludedGameTypes>
@@ -37,6 +46,14 @@
 				<GameType value = "CustomGame"/>
 			</IncludedGameTypes>
 		</XmlNode>
+		<XmlNode>                
+			<XmlName id="NPCCharacters" path="lords"/>
+			<IncludedGameTypes>
+				<GameType value = "Campaign"/>
+				<GameType value = "CampaignStoryMode"/>
+				<GameType value = "CustomGame"/>
+			</IncludedGameTypes>
+		</XmlNode>
 		<XmlNode>
 			<XmlName id="Kingdoms" path="spkingdoms"/>
 			<IncludedGameTypes>
@@ -53,14 +70,7 @@
 				<GameType value = "CustomGame"/>
 			</IncludedGameTypes>
 		</XmlNode>
-		<XmlNode>
-			<XmlName id="partyTemplates" path="partyTemplates"/>
-			<IncludedGameTypes>
-				<GameType value = "Campaign"/>
-				<GameType value = "CampaignStoryMode"/>
-				<GameType value = "CustomGame"/>
-			</IncludedGameTypes>
-		</XmlNode>
+		
 		<XmlNode>
 			<XmlName id="Settlements" path="settlements"/>
 			<IncludedGameTypes>
@@ -69,13 +79,5 @@
 				<GameType value = "CustomGame"/>
 			</IncludedGameTypes>
 		</XmlNode>
-		<XmlNode>                
-			<XmlName id="NPCCharacters" path="lords"/>
-			<IncludedGameTypes>
-				<GameType value = "Campaign"/>
-				<GameType value = "CampaignStoryMode"/>
-				<GameType value = "CustomGame"/>
-			</IncludedGameTypes>
-		</XmlNode
   </Xmls>
 </Module>

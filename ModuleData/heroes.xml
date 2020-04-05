@@ -227,4 +227,6 @@
   <Hero id="lord_steppe_bandits_1" faction="Faction.steppe_bandits" />
   <!-- My heroes-->
   <Hero id="lord_7_1" is_noble="true" faction="Faction.clan_added_1" />
+  <Hero id="lord_7_2" is_noble="true" faction="Faction.clan_added_1" />
+  <Hero id="lord_7_3" is_noble="true" faction="Faction.clan_added_2" />
 </Heroes>

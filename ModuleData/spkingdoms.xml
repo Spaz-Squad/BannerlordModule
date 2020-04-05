@@ -73,7 +73,7 @@
     </policies>
   </Kingdom>
   <!-- My added Kingdoms-->
-  <Kingdom id="added_kingdom" owner="Hero.lord_7_1" banner_key="11.45.10.1536.1536.768.768.1.0.0.461.11.11.512.512.768.768.1.0.0" primary_banner_color="0xff284E19" secondary_banner_color="0xffEFC990" label_color="FF7CC8EB" color="FF58888B" color2="FFCCBB89" alternative_color="FF787878" alternative_color2="FF6caecc" culture="Culture.addedculture" settlement_banner_mesh="encounter_flag_f" flag_mesh="info_screen_flags_b" name="{=K000001}Kingdom" short_name="{=K000001}Kingdom" title="{=K000003}Added Kingdom" ruler_title="{=hwnp9abW}King" text="{=K000004}TODO">
+  <Kingdom id="added_kingdom" owner="Hero.lord_7_1" banner_key="11.45.10.1536.1536.768.768.1.0.0.461.11.11.512.512.768.768.1.0.0" primary_banner_color="0xff284E19" secondary_banner_color="0xffEFC990" label_color="FF7CC8EB" color="FF58888B" color2="FFCCBB89" alternative_color="FF787878" alternative_color2="FF6caecc" culture="Culture.added_culture" settlement_banner_mesh="encounter_flag_f" flag_mesh="info_screen_flags_b" name="{=K000001}Kingdom" short_name="{=K000001}Kingdom" title="{=K000003}Added Kingdom" ruler_title="{=hwnp9abW}King" text="{=K000004}TODO">
    <relationships>
       <relationship kingdom="Kingdom.empire" value="-1" isAtWar="true" />
 	  <relationship kingdom="Kingdom.empire_w" value="-1" isAtWar="true" />      

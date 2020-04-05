@@ -4285,4 +4285,48 @@ voice="Male, northern accent, older, authoritative and competent"-->
     </Traits>
     <equipmentSet></equipmentSet>
   </NPCCharacter>
+  <NPCCharacter id="lord_7_2" name="{=L000001}My Added Lord2" age="50" voice="curt" default_group="Cavalry" battleTemplate="NPCCharacter.empire_lord_lady_battle_equipment" civilianTemplate="NPCCharacter.empire_unarmored_noble_equipment" is_hero="true" culture="Culture.added_culture" occupation="Lord">
+    <face>
+      <!--face_key value="0011ad2700000008975d98b886669678796aa5a76a87677859779a888658234a000000040797967900001105000030a30000001f000000000000000000040000" /-->
+      <BodyProperties version="4" key="0011AC0700000008975D98B886639678796AA5A76A87677859779A888658234A000430090497967900001105000030A30000001F000000000000000000A40000" />
+	  <hair_tags>
+        <hair_tag name="Short" />
+      </hair_tags>
+      <beard_tags>
+        <beard_tag name="LightShortBeard" />
+      </beard_tags>
+	</face>
+    <Traits>
+      <Trait id="KnightFightingSkills" value="5" />
+      <Trait id="Commander" value="4" />
+      <Trait id="Politician" value="4" />
+      <Trait id="Manager" value="5" />
+      <Trait id="Generosity" value="-1" />
+      <Trait id="Calculating" value="-1" />
+      <!---Opportunist -->
+    </Traits>
+    <equipmentSet></equipmentSet>
+  </NPCCharacter>
+  <NPCCharacter id="lord_7_3" name="{=L000001}My Added Lord3" age="50" voice="curt" default_group="Cavalry" battleTemplate="NPCCharacter.empire_lord_lady_battle_equipment" civilianTemplate="NPCCharacter.empire_unarmored_noble_equipment" is_hero="true" culture="Culture.added_culture" occupation="Lord">
+    <face>
+      <!--face_key value="0011ad2700000008975d98b886669678796aa5a76a87677859779a888658234a000000040797967900001105000030a30000001f000000000000000000040000" /-->
+      <BodyProperties version="4" key="0011AC0700000008975D98B886639678796AA5A76A87677859779A888658234A000430090497967900001105000030A30000001F000000000000000000A40000" />
+	  <hair_tags>
+        <hair_tag name="Short" />
+      </hair_tags>
+      <beard_tags>
+        <beard_tag name="LightShortBeard" />
+      </beard_tags>
+	</face>
+    <Traits>
+      <Trait id="KnightFightingSkills" value="5" />
+      <Trait id="Commander" value="4" />
+      <Trait id="Politician" value="4" />
+      <Trait id="Manager" value="5" />
+      <Trait id="Generosity" value="-1" />
+      <Trait id="Calculating" value="-1" />
+      <!---Opportunist -->
+    </Traits>
+    <equipmentSet></equipmentSet>
+  </NPCCharacter>
 </NPCCharacters>

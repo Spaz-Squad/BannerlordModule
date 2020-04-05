@@ -1041,7 +1041,15 @@
 		   tier="6"
 		   owner="Hero.lord_7_1"
 		   default_party_template="PartyTemplate.kingdom_hero_party_added_template_1"
-		   culture="Culture.addedculture"
+		   culture="Culture.added_culture"
+		   super_faction="Kingdom.added_kingdom"
+		   banner_key="11.71.12.4922.4922.580.740.1.0.0.138.111.0.509.509.762.770.0.0.359" />
+  <Faction id="clan_added_2"
+		   name="{=c000001}Clan Added 2"
+		   tier="6"
+		   owner="Hero.lord_7_3"
+		   default_party_template="PartyTemplate.kingdom_hero_party_added_template_1"
+		   culture="Culture.added_culture"
 		   super_faction="Kingdom.added_kingdom"
 		   banner_key="11.71.12.4922.4922.580.740.1.0.0.138.111.0.509.509.762.770.0.0.359" /><!-- "" -->
 </Factions>
