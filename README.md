@@ -1,1 +1,1 @@
-# Bannerlord-Module
+# BannerlordModule
