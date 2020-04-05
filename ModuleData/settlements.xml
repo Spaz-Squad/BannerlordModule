@@ -3,7 +3,7 @@
   <!-- Empire = 19 towns, 52 villages, 9 castles, 2.73 villages per town, 18% castle ratio -->
   <!-- Ambrela and Myzon - Ruler of aristocratic clan. Northwest-central-->
   <!-- Ambrela - from name of nearby clan -->
-  <Settlement id="castle_EN1" name="{=Settlements.Settlement.name.castle_EN1}Varagos Castle" owner="Faction.clan_added_1" posX="493.56" posY="403.18" prosperity="420" culture="Culture.added_culture" gate_posX="494.4868" gate_posY="400.274">
+  <Settlement id="castle_EN1" name="{=Settlements.Settlement.name.castle_EN1}Varagos Castle" owner="Faction.clan_empire_north_3" posX="493.56" posY="403.18" prosperity="420" culture="Culture.empire" gate_posX="494.4868" gate_posY="400.274">
     <Components>
       <Town id="castle_comp_EN1" is_castle="true" level="1" background_crop_position="0.0" background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.908" />
     </Components>
@@ -13,7 +13,7 @@
       <Location id="prison" scene_name="empire_dungeon_a" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_village_EN1_1" name="{=Settlements.Settlement.name.castle_village_EN1_1}Varagos" posX="498.312" posY="377.567" culture="Culture.added_culture" text="{=Settlements.Settlement.text.castle_village_EN1_1}Varagos sits where streams from the nearby hills join to form Aris, a small river that runs into Lake Tanaesis. The land here is not especially rich, but is sufficient for the raising of sheep.">
+  <Settlement id="castle_village_EN1_1" name="{=Settlements.Settlement.name.castle_village_EN1_1}Varagos" posX="498.312" posY="377.567" culture="Culture.empire" text="{=Settlements.Settlement.text.castle_village_EN1_1}Varagos sits where streams from the nearby hills join to form Aris, a small river that runs into Lake Tanaesis. The land here is not especially rich, but is sufficient for the raising of sheep.">
     <Components>
       <Village id="castle_village_comp_EN1_1" village_type="VillageType.sheep_farm" hearth="322" gate_rotation="0.008" trade_bound="Settlement.castle_EN1" bound="Settlement.castle_EN1" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
     </Components>

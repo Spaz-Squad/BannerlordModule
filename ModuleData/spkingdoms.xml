@@ -78,10 +78,13 @@
       <relationship kingdom="Kingdom.empire" value="-1" isAtWar="true" />
 	  <relationship kingdom="Kingdom.empire_w" value="-1" isAtWar="true" />      
 	  <relationship kingdom="Kingdom.empire_s" value="-1" isAtWar="true" />
+	  <relationship kingdom="Kingdom.sturgia" value="-1" isAtWar="true" />
+      <relationship kingdom="Kingdom.khuzait" value="-1" isAtWar="true" />
+      <relationship kingdom="Kingdom.battania" value="-1" isAtWar="true" />
+      <relationship kingdom="Kingdom.aserai" value="-1" isAtWar="true" />
+      <relationship kingdom="Kingdom.vlandia" value="-1" isAtWar="true" />
     </relationships>
     <policies>
-      <policy name="{=IPrTwc28}Tribal Assembly" />
-      <policy name="{=rqHFujhr}Sacred Majesty" />
     </policies>
   </Kingdom>
 </Kingdoms>
