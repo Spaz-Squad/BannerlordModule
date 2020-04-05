@@ -11,6 +11,15 @@
     <DependedModule Id="StoryMode" />
   </DependedModules>
   <SubModules>
+		 <SubModule>
+             <Name value="BannerlordModule"/>
+             <DLLName value="BannerlordModule.dll"/>
+             <SubModuleClassType value="BannerlordModule.MySubModule"/>
+             <Tags>
+                 <Tag key="DedicatedServerType" value="none" />
+                 <Tag key="IsNoRenderModeElement" value="false" />
+             </Tags>
+         </SubModule>
   </SubModules>
   <Xmls>
 		<XmlNode>
