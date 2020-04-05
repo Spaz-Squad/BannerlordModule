@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <NPCCharacters>
-  <NPCCharacter id="mod_added_recruit"
+  <NPCCharacter id="mod_bandit_recruit"
                 default_group="Infantry"
 				is_female="false"
                 level="6"
                 civilianTemplate="NPCCharacter.vlandia_troop_civilian_template_t1"
-                name="{=0000001}Added Recruit"
+                name="{=0000001}Bandit Recruit"
                 occupation="Soldier"
                 is_basic_troop="true"
-                culture="Culture.added_culture">
+                culture="Culture.bandit_culture">
 	<face>
       <face_key_template value="NPCCharacter.villager_vlandia" />
     </face>		
@@ -57,19 +57,19 @@
                  id="Item.scarf" />			 
     </equipmentSet>
 	<upgrade_targets>
-      <upgrade_target id="NPCCharacter.mod_added_warrior" />
-	  <upgrade_target id="NPCCharacter.mod_added_archer" />
+      <upgrade_target id="NPCCharacter.mod_bandit_warrior" />
+	  <upgrade_target id="NPCCharacter.mod_bandit_archer" />
     </upgrade_targets>
   </NPCCharacter>
-  <NPCCharacter id="mod_added_warrior"
+  <NPCCharacter id="mod_bandit_warrior"
                 default_group="Infantry"
 				is_female="false"
                 level="11"
                 civilianTemplate="NPCCharacter.vlandia_troop_civilian_template_t1"
-                name="{=0000002}Added Warrior"
+                name="{=0000002}Bandit Warrior"
                 occupation="Soldier"
                 is_basic_troop="true"
-                culture="Culture.added_culture">
+                culture="Culture.bandit_culture">
 	<face>
       <face_key_template value="NPCCharacter.villager_vlandia" />
     </face>		
@@ -122,19 +122,19 @@
                  id="Item.scarf" />			 
     </equipmentSet>
 	<upgrade_targets>
-      <upgrade_target id="NPCCharacter.mod_added_veteran" />
-	  <upgrade_target id="NPCCharacter.mod_added_scout" />
+      <upgrade_target id="NPCCharacter.mod_bandit_veteran" />
+	  <upgrade_target id="NPCCharacter.mod_bandit_scout" />
     </upgrade_targets>
   </NPCCharacter>
-  <NPCCharacter id="mod_added_veteran"
+  <NPCCharacter id="mod_bandit_veteran"
                 default_group="Infantry"
 				is_female="false"
                 level="16"
                 civilianTemplate="NPCCharacter.vlandia_troop_civilian_template_t1"
-                name="{=0000003}Added Veteran Infantry"
+                name="{=0000003}Bandit Veteran Infantry"
                 occupation="Soldier"
                 is_basic_troop="true"
-                culture="Culture.added_culture">
+                culture="Culture.bandit_culture">
 	<face>
       <face_key_template value="NPCCharacter.villager_vlandia" />
     </face>		
@@ -164,13 +164,13 @@
       <equipment slot="Head"
                  id="Item.arming_coif" />
       <equipment slot="Body"
-                 id="Item.sleeveless_padded_short_coat" />
+                 id="Item.sleeveless_pBandit_short_coat" />
       <equipment slot="Leg"
                  id="Item.leather_cavalier_boots" />
       <equipment slot="Gloves"
-                 id="Item.guarded_padded_vambrace" />
+                 id="Item.guarded_pBandit_vambrace" />
 	  <equipment slot="Cape"
-                 id="Item.empire_warrior_padded_armor_shoulder" />			 
+                 id="Item.empire_warrior_pBandit_armor_shoulder" />			 
     </equipmentSet>
 	<equipmentSet>
       <equipment slot="Item0"
@@ -180,27 +180,27 @@
       <equipment slot="Head"
                  id="Item.arming_coif" />
       <equipment slot="Body"
-                 id="Item.Item.empire_warrior_padded_armor_c" />
+                 id="Item.Item.empire_warrior_pBandit_armor_c" />
       <equipment slot="Leg"
                  id="Item.leather_cavalier_boots" />
       <equipment slot="Gloves"
-                 id="Item.guarded_padded_vambrace" />
+                 id="Item.guarded_pBandit_vambrace" />
 	  <equipment slot="Cape"
                  id="Item.scarf" />			 
     </equipmentSet>
 	<upgrade_targets>
-      <upgrade_target id="NPCCharacter.mod_added_warrior" />
+      <upgrade_target id="NPCCharacter.mod_bandit_warrior" />
     </upgrade_targets>
   </NPCCharacter>
-   <NPCCharacter id="mod_added_warrior"
+   <NPCCharacter id="mod_bandit_warrior"
                 default_group="Infantry"
 				is_female="false"
                 level="21"
                 civilianTemplate="NPCCharacter.vlandia_troop_civilian_template_t1"
-                name="{=0000004}Added Warrior"
+                name="{=0000004}Bandit Warrior"
                 occupation="Soldier"
                 is_basic_troop="true"
-                culture="Culture.added_culture">
+                culture="Culture.bandit_culture">
 	<face>
       <face_key_template value="NPCCharacter.villager_vlandia" />
     </face>		
@@ -255,18 +255,18 @@
                  id="Item.imperial_studded_strip_shoulders" /> 
     </equipmentSet>
 	<upgrade_targets>
-      <upgrade_target id="NPCCharacter.mod_added_master" />
+      <upgrade_target id="NPCCharacter.mod_bandit_master" />
     </upgrade_targets>
   </NPCCharacter>
-  <NPCCharacter id="mod_added_master"
+  <NPCCharacter id="mod_bandit_master"
                 default_group="Infantry"
 				is_female="false"
                 level="26"
                 civilianTemplate="NPCCharacter.vlandia_troop_civilian_template_t1"
-                name="{=0000005}Added Sword Master"
+                name="{=0000005}Bandit Sword Master"
                 occupation="Soldier"
                 is_basic_troop="true"
-                culture="Culture.added_culture">
+                culture="Culture.bandit_culture">
 	<face>
       <face_key_template value="NPCCharacter.villager_vlandia" />
     </face>		
@@ -321,15 +321,15 @@
                  id="Item.decorated_imperial_boots" />		 
     </equipmentSet>
   </NPCCharacter>
-  <NPCCharacter id="mod_added_archer"
+  <NPCCharacter id="mod_bandit_archer"
                 default_group="Ranged"
 				is_female="false"
                 level="11"
                 civilianTemplate="NPCCharacter.vlandia_troop_civilian_template_t1"
-                name="{=0000006}Added Archer"
+                name="{=0000006}Bandit Archer"
                 occupation="Soldier"
                 is_basic_troop="true"
-                culture="Culture.added_culture">
+                culture="Culture.bandit_culture">
 	<face>
       <face_key_template value="NPCCharacter.villager_vlandia" />
     </face>		
@@ -390,18 +390,18 @@
                  id="Item.scarf" />			 
     </equipmentSet>
 	<upgrade_targets>
-      <upgrade_target id="NPCCharacter.mod_added_mark" />
+      <upgrade_target id="NPCCharacter.mod_bandit_mark" />
     </upgrade_targets>
   </NPCCharacter>
-  <NPCCharacter id="mod_added_mark"
+  <NPCCharacter id="mod_bandit_mark"
                 default_group="Ranged"
 				is_female="false"
                 level="16"
                 civilianTemplate="NPCCharacter.vlandia_troop_civilian_template_t1"
-                name="{=0000008}Added Marksman"
+                name="{=0000008}Bandit Marksman"
                 occupation="Soldier"
                 is_basic_troop="true"
-                culture="Culture.added_culture">
+                culture="Culture.bandit_culture">
 	<face>
       <face_key_template value="NPCCharacter.villager_vlandia" />
     </face>		
@@ -435,9 +435,9 @@
       <equipment slot="Head"
                  id="Item.arming_coif" />				 
       <equipment slot="Body"
-                 id="Item.imperial_padded_cloth" />
+                 id="Item.imperial_pBandit_cloth" />
       <equipment slot="Gloves"
-                 id="Item.guarded_padded_vambrace" />
+                 id="Item.guarded_pBandit_vambrace" />
       <equipment slot="Leg"
                  id="Item.leather_shoes" />
       <equipment slot="Head"
@@ -455,27 +455,27 @@
       <equipment slot="Head"
                  id="Item.arming_coif" />
       <equipment slot="Body"
-                 id="Item.imperial_padded_cloth" />
+                 id="Item.imperial_pBandit_cloth" />
       <equipment slot="Gloves"
-                 id="Item.guarded_padded_vambrace" />
+                 id="Item.guarded_pBandit_vambrace" />
       <equipment slot="Leg"
                  id="Item.leather_shoes" />
 	  <equipment slot="Cape"
                  id="Item.scarf" />			 
     </equipmentSet>
 	<upgrade_targets>
-      <upgrade_target id="NPCCharacter.mod_added_snip" />
+      <upgrade_target id="NPCCharacter.mod_bandit_snip" />
     </upgrade_targets>
   </NPCCharacter>
-  <NPCCharacter id="mod_added_snip"
+  <NPCCharacter id="mod_bandit_snip"
                 default_group="Ranged"
 				is_female="false"
                 level="21"
                 civilianTemplate="NPCCharacter.vlandia_troop_civilian_template_t1"
-                name="{=0000009}Added Sniper"
+                name="{=0000009}Bandit Sniper"
                 occupation="Soldier"
                 is_basic_troop="true"
-                culture="Culture.added_culture">
+                culture="Culture.bandit_culture">
 	<face>
       <face_key_template value="NPCCharacter.villager_vlandia" />
     </face>		
@@ -538,18 +538,18 @@
                  id="Item.battania_woodland_boots" />			 			 
     </equipmentSet>
 	<upgrade_targets>
-      <upgrade_target id="NPCCharacter.mod_added_hero" />
+      <upgrade_target id="NPCCharacter.mod_bandit_hero" />
     </upgrade_targets>
   </NPCCharacter>
-  <NPCCharacter id="mod_added_hero"
+  <NPCCharacter id="mod_bandit_hero"
                 default_group="Ranged"
 				is_female="false"
                 level="26"
                 civilianTemplate="NPCCharacter.vlandia_troop_civilian_template_t1"
-                name="{=0000010}Added Hero"
+                name="{=0000010}Bandit Hero"
                 occupation="Soldier"
                 is_basic_troop="true"
-                culture="Culture.added_culture">
+                culture="Culture.bandit_culture">
 	<face>
       <face_key_template value="NPCCharacter.villager_vlandia" />
     </face>		
@@ -612,16 +612,16 @@
                  id="Item.battania_shoulder_furr" />			 
     </equipmentSet>
   </NPCCharacter>
-  <NPCCharacter id="mod_added_scout"
+  <NPCCharacter id="mod_bandit_scout"
                 default_group="Cavalry"
 				is_female="false"
                 level="16"
                 civilianTemplate="NPCCharacter.vlandia_troop_civilian_template_t1"
-                name="{=0000011}Added Scout"
+                name="{=0000011}Bandit Scout"
 				upgrade_requires="ItemCategory.horse"
                 occupation="Soldier"
                 is_basic_troop="true"
-                culture="Culture.added_culture">
+                culture="Culture.bandit_culture">
 	<face>
       <face_key_template value="NPCCharacter.villager_vlandia" />
     </face>		
@@ -657,7 +657,7 @@
       <equipment slot="Gloves"
                  id="Item.leather_gloves" />
 	  <equipment slot="Cape"
-                 id="Item.empire_warrior_padded_armor_shoulder" />	
+                 id="Item.empire_warrior_pBandit_armor_shoulder" />	
  	  <equipment slot="Horse"
                id="Item.vlandia_horse" />
       <equipment slot="HorseHarness"
@@ -684,18 +684,18 @@
                id="Item.light_harness" />			 
     </equipmentSet>
 	<upgrade_targets>
-      <upgrade_target id="NPCCharacter.mod_added_cav" />
+      <upgrade_target id="NPCCharacter.mod_bandit_cav" />
     </upgrade_targets>
   </NPCCharacter>
-  <NPCCharacter id="mod_added_cav"
+  <NPCCharacter id="mod_bandit_cav"
                 default_group="Cavalry"
 				is_female="false"
                 level="21"
                 civilianTemplate="NPCCharacter.vlandia_troop_civilian_template_t1"
-                name="{=0000012}Added Cavalry"
+                name="{=0000012}Bandit Cavalry"
 				occupation="Soldier"
                 is_basic_troop="true"
-                culture="Culture.added_culture">
+                culture="Culture.bandit_culture">
 	<face>
       <face_key_template value="NPCCharacter.villager_vlandia" />
     </face>		
@@ -731,7 +731,7 @@
       <equipment slot="Gloves"
                  id="Item.leather_gloves" />
 	  <equipment slot="Cape"
-                 id="Item.empire_warrior_padded_armor_shoulder" />	
+                 id="Item.empire_warrior_pBandit_armor_shoulder" />	
  	  <equipment slot="Horse"
                id="Item.vlandia_horse" />
       <equipment slot="HorseHarness"
@@ -758,19 +758,19 @@
                id="Item.light_harness" />			 
     </equipmentSet>
 	<upgrade_targets>
-      <upgrade_target id="NPCCharacter.mod_added_wind" />
+      <upgrade_target id="NPCCharacter.mod_bandit_wind" />
     </upgrade_targets>
   </NPCCharacter>
-  <NPCCharacter id="mod_added_wind"
+  <NPCCharacter id="mod_bandit_wind"
                 default_group="Cavalry"
 				is_female="false"
                 level="26"
                 civilianTemplate="NPCCharacter.vlandia_troop_civilian_template_t1"
-                name="{=0000013}Added Windrider"
+                name="{=0000013}Bandit Windrider"
 				upgrade_requires="ItemCategory.war_horse"
 				occupation="Soldier"
                 is_basic_troop="true"
-                culture="Culture.added_culture">
+                culture="Culture.bandit_culture">
 	<face>
       <face_key_template value="NPCCharacter.villager_vlandia" />
     </face>		

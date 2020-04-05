@@ -687,14 +687,14 @@
   </MBPartyTemplate>
   
   <!-- My added party templates-->
-  <MBPartyTemplate id="kingdom_hero_party_added_template_1" >
+  <MBPartyTemplate id="kingdom_hero_party_bandit_template_1" >
     <stacks>
-      <PartyTemplateStack min_value="10" max_value="25" troop="NPCCharacter.mod_added_warrior" />
-      <PartyTemplateStack min_value="16" max_value="25" troop="NPCCharacter.mod_added_mark" />
-      <PartyTemplateStack min_value="5" max_value="15" troop="NPCCharacter.mod_added_cav" />
-	  <PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.mod_added_hero" />
-	  <PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.mod_added_master" />
-	  <PartyTemplateStack min_value="5" max_value="25" troop="NPCCharacter.mod_added_recruit" />
+      <PartyTemplateStack min_value="10" max_value="25" troop="NPCCharacter.mod_bandit_warrior" />
+      <PartyTemplateStack min_value="16" max_value="25" troop="NPCCharacter.mod_bandit_mark" />
+      <PartyTemplateStack min_value="5" max_value="15" troop="NPCCharacter.mod_bandit_cav" />
+	  <PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.mod_bandit_hero" />
+	  <PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.mod_bandit_master" />
+	  <PartyTemplateStack min_value="5" max_value="25" troop="NPCCharacter.mod_bandit_recruit" />
     </stacks>
   </MBPartyTemplate>
 </partyTemplates>
