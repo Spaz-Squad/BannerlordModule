@@ -1,6 +1,6 @@
 ﻿<Module>
-  <Name value="Test Mod"/>
-  <Id value="TestMod"/>
+  <Name value="Bannerlord Test Mod"/>
+  <Id value="BannerlordModule"/>
   <Version value="v0.0.1"/>
   <SingleplayerModule value="true"/>
   <MultiplayerModule value="false"/>
@@ -76,6 +76,6 @@
 				<GameType value = "CampaignStoryMode"/>
 				<GameType value = "CustomGame"/>
 			</IncludedGameTypes>
-		</XmlNode>  
+		</XmlNode
   </Xmls>
 </Module>
