@@ -32,13 +32,6 @@ namespace BannerlordModule
         {
         }
 
-        // Token: 0x06000003 RID: 3 RVA: 0x0000208E File Offset: 0x0000028E
-        protected override void OnApplicationTick(float dt)
-        {
-            Console.WriteLine("DO SMTH");
-            base.OnApplicationTick(dt);
-        }
-
         // Token: 0x06000004 RID: 4 RVA: 0x000020A4 File Offset: 0x000002A4
         private void AddBehaviors(CampaignGameStarter gameInitializer)
         {

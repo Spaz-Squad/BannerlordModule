@@ -18,6 +18,7 @@ namespace BannerlordModule
         public override void RegisterEvents()
         {
             CampaignEvents.HeroCreated.AddNonSerializedListener(this, new Action<Hero, bool>(this.HeroCreated));
+            CampaignEvents.DailyTickEvent.AddNonSerializedListener(this, new Action(this.DailyTick));
         }
 
         public override void SyncData(IDataStore dataStore)
@@ -36,9 +37,17 @@ namespace BannerlordModule
                         Hero bandit_hero = new Hero();
                         HeroCreated(bandit_hero, false);
                         mobileParty.Party.Owner = bandit_hero;
-                        
+                        InformationManager.DisplayMessage(new InformationMessage("NEW HERO CREATED"));
+
                     }
+
                 }
+                /*
+                if (mobileParty.Party.NumberOfAllMembers > 5)
+                    {
+                        InformationManager.DisplayMessage(new InformationMessage("Hello World!"));
+                    }
+                    */
             }
         }
 
