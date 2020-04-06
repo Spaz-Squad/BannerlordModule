@@ -24,21 +24,18 @@ namespace BannerlordModule
         {
             foreach (MobileParty mobileParty in MobileParty.All)
             {
-                if (mobileParty.IsBandit && mobileParty.IsPartyTradeActive)
+                if (mobileParty.IsBandit)
                 {
-                    //mobileParty.PartyTradeGold = (int)((double)mobileParty.PartyTradeGold * 0.95 + (double)(50f * (float)mobileParty.Party.MemberRoster.TotalManCount * 0.05f));
-                    if (mobileParty.Party.NumberOfAllMembers >= 30)
+                    if (mobileParty.Party.NumberOfAllMembers >= 10)
                     {
 
                         InformationManager.DisplayMessage(new InformationMessage("NEW HERO BEGINNING"));
 
-                        CharacterObject banditHeroObject = new CharacterObject();
-                        Clan banditClan = new Clan();
-
+                        // TODO CREATE A RANDOM HERO GENERATOR FOR BANDIT HEROES... 
                         Hero bandit_hero = HeroCreator.CreateHeroAtOccupation(Occupation.Lord);
                         HeroCreated(bandit_hero, false);
-                        bandit_hero.Clan = banditClan;
-                        mobileParty.Party.Owner = bandit_hero;
+                        bandit_hero.Clan = Clan.All[0];
+                        //mobileParty.Party.Owner = bandit_hero;
 
                         InformationManager.DisplayMessage(new InformationMessage("NEW HERO CREATED"));
 
