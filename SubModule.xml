@@ -14,7 +14,7 @@
 		 <SubModule>
              <Name value="BannerlordModule"/>
              <DLLName value="BannerlordModule.dll"/>
-             <SubModuleClassType value="BannerlordModule.MySubModule"/>
+             <SubModuleClassType value="BannerlordModule.Main"/>
              <Tags>
                  <Tag key="DedicatedServerType" value="none" />
                  <Tag key="IsNoRenderModeElement" value="false" />

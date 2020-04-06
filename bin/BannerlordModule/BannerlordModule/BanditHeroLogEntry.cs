@@ -4,7 +4,6 @@ using TaleWorlds.Core;
 using TaleWorlds.Localization;
 using TaleWorlds.SaveSystem;
 using TaleWorlds.CampaignSystem;
-using TaleWorlds.CampaignSystem.Encyclopedia;
 
 
 
