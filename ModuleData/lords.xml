@@ -4329,7 +4329,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
     </Traits>
     <equipmentSet></equipmentSet>
   </NPCCharacter>
-  <NPCCharacter id="dead_bandit_lord_1" name="{=L000004}The Bandit King" age="45" voice="curt" default_group="Infantry" is_hero="true" battleTemplate="NPCCharacter.sturgia_lord_lady_battle_equipment" civilianTemplate="NPCCharacter.civillian_template_sturgia_nobleman" culture="Culture.added_culture" occupation="Lord">
+  <NPCCharacter id="future_bandit_lord_1" name="{=L000004}The Bandit King" age="45" voice="curt" default_group="Infantry" is_hero="true" battleTemplate="NPCCharacter.sturgia_lord_lady_battle_equipment" civilianTemplate="NPCCharacter.civillian_template_sturgia_nobleman" culture="Culture.added_culture" occupation="Lord">
     <face>
       <!--face_key value="0019212180bc140143fbbb8747b89c66a9446a946c85e738a778e765678ca9b4000b883475b5c64c0000037f0000000f00000037049140010000000000003000" /-->
       <BodyProperties version="4" key="0016200140BC140143FBBB8747BD9C66A9446A946C85E738A778E765678CA9B4000BD8350BB5C64C0000037F0000000F00000037049140010000000001903000" />

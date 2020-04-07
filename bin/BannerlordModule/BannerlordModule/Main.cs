@@ -3,11 +3,14 @@ using TaleWorlds.Core;
 using TaleWorlds.Localization;
 using TaleWorlds.MountAndBlade;
 using TaleWorlds.CampaignSystem;
+using TaleWorlds.Library;
+
 
 namespace BannerlordModule
 {
     public class Main : MBSubModuleBase
     {
+
         protected override void OnSubModuleLoad()
         {
             Module.CurrentModule.AddInitialStateOption(new InitialStateOption("Message",
@@ -35,7 +38,19 @@ namespace BannerlordModule
         // Token: 0x06000004 RID: 4 RVA: 0x000020A4 File Offset: 0x000002A4
         private void AddBehaviors(CampaignGameStarter gameInitializer)
         {
-            gameInitializer.AddBehavior(new BanditPartyScanner());
+            gameInitializer.AddBehavior(new BanditPartyScanner(game));
         }
+
+        public override void OnGameInitializationFinished(Game game)
+        {
+            if (game.GameType is Campaign)
+            {
+
+                this.game = game;
+            }
+        }
+
+        private Game game;
+
     }
 }

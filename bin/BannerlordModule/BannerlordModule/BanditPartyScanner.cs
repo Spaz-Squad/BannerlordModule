@@ -11,6 +11,12 @@ namespace BannerlordModule
 {
     public class BanditPartyScanner : CampaignBehaviorBase
     {
+
+        public BanditPartyScanner(Game game)
+        {
+            this.game = game;
+        }
+
         public override void RegisterEvents()
         {
             CampaignEvents.HeroCreated.AddNonSerializedListener(this, new Action<Hero, bool>(this.HeroCreated));
@@ -26,16 +32,15 @@ namespace BannerlordModule
             {
                 if (mobileParty.IsBandit)
                 {
-                    if (mobileParty.Party.NumberOfAllMembers >= 10)
+                    if (mobileParty.Party.NumberOfAllMembers >= 15)
                     {
 
                         InformationManager.DisplayMessage(new InformationMessage("NEW HERO BEGINNING"));
 
                         // TODO CREATE A RANDOM HERO GENERATOR FOR BANDIT HEROES... 
-                        Hero bandit_hero = HeroCreator.CreateHeroAtOccupation(Occupation.Lord);
+                        Hero bandit_hero = BanditHeroCreator.CreateNewBandit(game);
                         HeroCreated(bandit_hero, false);
-                        bandit_hero.Clan = Clan.All[0];
-                        //mobileParty.Party.Owner = bandit_hero;
+                        mobileParty.Party.Owner = bandit_hero;
 
                         InformationManager.DisplayMessage(new InformationMessage("NEW HERO CREATED"));
 
@@ -58,5 +63,7 @@ namespace BannerlordModule
         {
             LogEntry.AddLogEntry(new BanditHeroLogEntry(hero), CampaignTime.Now);
         }
+
+        private Game game;
     }
 }

@@ -228,5 +228,6 @@
   <!-- My heroes-->
   <Hero id="lord_7_1" is_noble="true" faction="Faction.clan_bandit_1" />
   <Hero id="lord_7_2" is_noble="true" faction="Faction.clan_bandit_1" />
-  <Hero id="lord_7_3" is_noble="true" faction="Faction.clan_bandit_2" />
+  <Hero id="lord_7_3"  is_noble="true" faction="Faction.clan_bandit_2" />
+  <Hero id="future_bandit_lord_1" is_alive = "false" is_noble="true" />
 </Heroes>
