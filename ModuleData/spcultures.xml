@@ -1136,7 +1136,7 @@
     </clan_names>
   </Culture>
   <Culture id="bandit_culture"
-           name="{=C000001}Vagabond Culture"
+           name="{=C000001}Vagabond"
            is_main_culture="true"
            color="FF58888B"
            color2="FFCCBB89"

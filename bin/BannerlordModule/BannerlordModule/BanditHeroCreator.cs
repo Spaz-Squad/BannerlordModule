@@ -16,8 +16,6 @@ namespace BannerlordModule
         public static Hero CreateNewBandit(Game game)
         {
             int age = 35;
-            //CharacterObject newCharacter = CharacterObject.CreateFrom(CharacterObject.Find("future_bandit_lord_1"));
-            //Hero hero;
             
             CampaignTime birthDay;
 
@@ -31,7 +29,7 @@ namespace BannerlordModule
 
             CultureObject banditCulture = null;
 
-            banditCulture = MBObjectManager.Instance.GetObjectTypeList<CultureObject>().FirstOrDefault(x => x.IsMainCulture && x.GetName().ToString() == "Parzival's Regime");
+            banditCulture = MBObjectManager.Instance.GetObjectTypeList<CultureObject>().FirstOrDefault(x => x.IsMainCulture && x.GetName().ToString() == "Vagabond");
             if (banditCulture != default(CultureObject))
             {
 
@@ -56,6 +54,8 @@ namespace BannerlordModule
             CharacterObject lord = (from x in CharacterObject.Templates
                                         where x.Occupation == Occupation.Wanderer
                                         select x).GetRandomElement<CharacterObject>();
+            lord.Name = new TextObject("Bandit Lord Test", null);
+            lord.Culture = banditCulture;
             //Settlement randomElement = (from settlement in Settlement.All
             //                            where settlement.Culture == lord.Culture && settlement.IsTown
              //                           select settlement).GetRandomElement<Settlement>();
