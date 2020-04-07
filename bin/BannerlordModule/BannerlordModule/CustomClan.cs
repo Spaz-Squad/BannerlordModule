@@ -22,12 +22,14 @@ namespace BannerlordModule
             this.informalName = informalName;
             this.culture = culture;
             this.banner = Banner.CreateRandomClanBanner();
+
+            this.clan = new Clan();
+            clan.InitializeClan(new TextObject(name, null), new TextObject(informalName, null), culture, banner);
         }
 
         public void AddClan(Game game)
         {
             this.clan = game.ObjectManager.RegisterPresumedObject<Clan>(new Clan());
-            this.clan.InitializeClan(new TextObject(name, null), new TextObject(informalName, null), culture, banner);
         }
 
         public Clan getClan()

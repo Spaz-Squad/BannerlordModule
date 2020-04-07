@@ -39,7 +39,7 @@ namespace BannerlordModule
 
             }
             CustomClan clan = new CustomClan("Bandit Clan", "Bandits", banditCulture);
-            //clan.AddClan(game);
+            //clan.AddClan(game); // Still causes Crashes
 
             //newCharacter.HeroObject.Clan = clan.getClan();
             //hero = game.ObjectManager.RegisterPresumedObject<Hero>(new Hero());
