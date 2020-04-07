@@ -52,10 +52,10 @@ namespace BannerlordModule
             Hero hero = HeroCreator.CreateSpecialHero(lord, null, null, null, -1);
             //GiveGoldAction.ApplyBetweenCharacters(null, hero, 20000, true);
             //hero.HasMet = true;
-            //hero.Clan = clan.getClan();
+            hero.Clan = clan.getClan();
             //hero.ChangeState(Hero.CharacterStates.Active);
             //AddCompanionAction.Apply(Clan.PlayerClan, hero);
-            //AddHeroToPartyAction.Apply(hero, MobileParty.MainParty, true);
+            AddHeroToPartyAction.Apply(hero, MobileParty.MainParty, true);
             //CampaignEventDispatcher.Instance.OnHeroCreated(hero, false);
             return hero;
 
