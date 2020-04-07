@@ -17,7 +17,7 @@ namespace BannerlordModule
             new TextObject("Message", null),
             9990, () => { InformationManager.DisplayMessage(new InformationMessage("Hello World!")); }, false));
         }
-
+        
         protected override void OnGameStart(Game game, IGameStarter gameStarterObject)
         {
             Campaign campaign = game.GameType as Campaign;
@@ -43,11 +43,8 @@ namespace BannerlordModule
 
         public override void OnGameInitializationFinished(Game game)
         {
-            if (game.GameType is Campaign)
-            {
-
                 this.game = game;
-            }
+            
         }
 
         private Game game;

@@ -12,6 +12,8 @@ namespace BannerlordModule
     public class BanditPartyScanner : CampaignBehaviorBase
     {
 
+        public static int totalHeroesCreated = 0;
+
         public BanditPartyScanner(Game game)
         {
             this.game = game;
@@ -19,7 +21,6 @@ namespace BannerlordModule
 
         public override void RegisterEvents()
         {
-            CampaignEvents.HeroCreated.AddNonSerializedListener(this, new Action<Hero, bool>(this.HeroCreated));
             CampaignEvents.DailyTickEvent.AddNonSerializedListener(this, new Action(this.DailyTick));
         }
 
@@ -32,18 +33,17 @@ namespace BannerlordModule
             {
                 if (mobileParty.IsBandit)
                 {
-                    if (mobileParty.Party.NumberOfAllMembers >= 15)
+                    if (totalHeroesCreated < 1 && mobileParty.Party.NumberOfAllMembers >= 15)
                     {
 
                         InformationManager.DisplayMessage(new InformationMessage("NEW HERO BEGINNING"));
 
-                        // TODO CREATE A RANDOM HERO GENERATOR FOR BANDIT HEROES... 
                         Hero bandit_hero = BanditHeroCreator.CreateNewBandit(game);
-                        HeroCreated(bandit_hero, false);
-                        mobileParty.Party.Owner = bandit_hero;
+                        //AddHeroToLog(bandit_hero, false);
+                        //mobileParty.Party.Owner = bandit_hero;
 
                         InformationManager.DisplayMessage(new InformationMessage("NEW HERO CREATED"));
-
+                        totalHeroesCreated++;
                     }
 
                 }
@@ -57,9 +57,9 @@ namespace BannerlordModule
         }
 
         /*
-         * Here it creates a bandit hero
+         * Here it creates a bandit hero in the log
          */
-        private void HeroCreated(Hero hero, bool isBornNaturally)
+        private void AddHeroToLog(Hero hero, bool isBorn)
         {
             LogEntry.AddLogEntry(new BanditHeroLogEntry(hero), CampaignTime.Now);
         }

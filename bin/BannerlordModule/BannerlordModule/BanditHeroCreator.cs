@@ -14,7 +14,8 @@ namespace BannerlordModule
         {
             int age = 35;
             CharacterObject newCharacter = CharacterObject.CreateFrom(CharacterObject.Find("future_bandit_lord_1"));
-            Hero hero = HeroCreator.CreateSpecialHero(newCharacter);
+            Hero hero = new Hero();
+            
             CampaignTime birthDay;
 
             birthDay = HeroHelper.GetRandomBirthDayForAge((float)age);

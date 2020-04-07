@@ -30,7 +30,7 @@
 				<GameType value = "CustomGame"/>
 			</IncludedGameTypes>
 		</XmlNode>
-		
+		<!--
         <XmlNode>                
 			<XmlName id="NPCCharacters" path="addedtroops"/>
 			<IncludedGameTypes>
@@ -78,8 +78,7 @@
 				<GameType value = "CampaignStoryMode"/>
 				<GameType value = "CustomGame"/>
 			</IncludedGameTypes>
-		</XmlNode>
-		
+		</XmlNode>-->
 		<!--<XmlNode>
 			<XmlName id="Settlements" path="settlements"/>
 			<IncludedGameTypes>
