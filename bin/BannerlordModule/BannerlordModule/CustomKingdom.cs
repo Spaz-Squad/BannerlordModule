@@ -13,36 +13,34 @@ using TaleWorlds.CampaignSystem;
 
 namespace BannerlordModule
 {
-    class CustomClan
+    class CustomKingdom
     {
 
-        public CustomClan(String name, String informalName, CultureObject culture)
+        public CustomKingdom(String name, String informalName, CultureObject culture)
         {
             this.name = name;
             this.informalName = informalName;
             this.culture = culture;
             this.banner = Banner.CreateRandomClanBanner();
+            this.kingdomColor1 = 7468453;
+            this.kingdomColor2 = 7461621;
 
-            this.clan = new Clan();
-            clan.InitializeClan(new TextObject(name, null), new TextObject(informalName, null), culture, banner);
-
-            
+            kingdom = new Kingdom();
+            kingdom.InitializeKingdom(new TextObject(name), new TextObject(informalName), culture, banner, kingdomColor1, kingdomColor2);
         }
 
-        public void AddClan(Game game)
+        public Kingdom getKingdom()
         {
-            this.clan = game.ObjectManager.RegisterPresumedObject<Clan>(new Clan());
-        }
-
-        public Clan getClan()
-        {
-            return clan;
+            return kingdom;
         }
 
         private String name;
         private String informalName;
         private CultureObject culture;
         private Banner banner;
-        private Clan clan;
+        private uint kingdomColor1;
+        private uint kingdomColor2;
+
+        private Kingdom kingdom;
     }
 }

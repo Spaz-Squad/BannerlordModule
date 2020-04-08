@@ -53,9 +53,13 @@ namespace BannerlordModule
             //GiveGoldAction.ApplyBetweenCharacters(null, hero, 20000, true);
             //hero.HasMet = true;
             hero.Clan = clan.getClan();
+
+            CustomKingdom kingdom = new CustomKingdom("Vagabond Kingdom", "Vagabond", banditCulture);
+            hero.Clan.ClanJoinFaction(kingdom.getKingdom());
+
             //hero.ChangeState(Hero.CharacterStates.Active);
             //AddCompanionAction.Apply(Clan.PlayerClan, hero);
-            AddHeroToPartyAction.Apply(hero, MobileParty.MainParty, true);
+            //AddHeroToPartyAction.Apply(hero, MobileParty.MainParty, true);
             //CampaignEventDispatcher.Instance.OnHeroCreated(hero, false);
             return hero;
 
