@@ -8,16 +8,13 @@ using TaleWorlds.Library;
 
 namespace BannerlordModule
 {
-    public class Main : MBSubModuleBase
-    {
 
-        protected override void OnSubModuleLoad()
-        {
-            Module.CurrentModule.AddInitialStateOption(new InitialStateOption("Message",
-            new TextObject("Message", null),
-            9990, () => { InformationManager.DisplayMessage(new InformationMessage("Hello World!")); }, false));
-        }
-        
+    /**
+     * This is the main class for my submodule.
+     * It runs OnGameStart() which retrieves the Game object, and tells the game about the BanditPartyScanner() Object
+     */
+    public class Main : MBSubModuleBase
+    {        
         protected override void OnGameStart(Game game, IGameStarter gameStarterObject)
         {
             Campaign campaign = game.GameType as Campaign;

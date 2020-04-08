@@ -13,6 +13,10 @@ using TaleWorlds.CampaignSystem;
 
 namespace BannerlordModule
 {
+
+    /**
+     * CustomKingdom is a class that helps me easily make a Kingdom
+     */
     class CustomKingdom
     {
 

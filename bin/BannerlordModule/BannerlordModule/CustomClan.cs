@@ -12,7 +12,10 @@ using TaleWorlds.SaveSystem;
 using TaleWorlds.CampaignSystem;
 
 namespace BannerlordModule
-{
+{ 
+    /**
+     * CustomClan is a class that helps me create a new clan easily
+     */
     class CustomClan
     {
 
